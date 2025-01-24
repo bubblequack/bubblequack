@@ -1,4 +1,3 @@
-
 ![CI Build](https://github.com/bubblequack/bubblequack/actions/workflows/ci.yml/badge.svg)
 
 # BubbleQuack
