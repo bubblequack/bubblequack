@@ -3,11 +3,10 @@ on: [push]
 jobs:
   build:
     runs-on: ubuntu-latest
+    container: ghcr.io/bubblequack/gb-studio-cli-docker
     steps:
       - uses: actions/checkout@v2
-
       - name: export
-        container: ghcr.io/bubblequack/gb-studio-cli-docker
         run: |
           gb-studio-cli make:rom bubblequack.gbsproj out/bubblequack.gb
           gb-studio-cli make:pocket bubblequack.gbsproj out/bubblequack.pocket
