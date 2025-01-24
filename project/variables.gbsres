@@ -1,4 +1,35 @@
 {
   "_resourceType": "variables",
-  "variables": []
+  "variables": [
+    {
+      "id": "0",
+      "name": "gold",
+      "symbol": "var_gold"
+    },
+    {
+      "id": "1",
+      "name": "sparkling water",
+      "symbol": "var_sparkling_water"
+    },
+    {
+      "id": "2",
+      "name": "elephant blowing",
+      "symbol": "var_elephant_blowing"
+    },
+    {
+      "id": "3",
+      "name": "found frog",
+      "symbol": "var_found_frog"
+    },
+    {
+      "id": "4",
+      "name": "found crow",
+      "symbol": "var_found_crow"
+    },
+    {
+      "id": "5",
+      "name": "found elephant",
+      "symbol": "var_found_elephant"
+    }
+  ]
 }
