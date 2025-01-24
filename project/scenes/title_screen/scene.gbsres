@@ -26,9 +26,18 @@
   "y": 192,
   "script": [
     {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "fee460b9-67a6-4044-a29c-72b73ecff76a",
+        "__collapse": false
+      },
+      "id": "57843d05-4e50-4206-91f6-8c530ecbf36c"
+    },
+    {
       "command": "EVENT_ACTOR_DEACTIVATE",
       "args": {
-        "actorId": "$self$"
+        "actorId": "$self$",
+        "__collapse": true
       },
       "id": "f62250f3-d815-4b97-9970-6b55da3d8cbd"
     },
@@ -40,14 +49,17 @@
           "b",
           "start",
           "select"
-        ]
+        ],
+        "__collapse": true
       },
       "id": "4ce41d17-d9ab-47b7-a848-7482436caa4b"
     },
     {
       "id": "c8d4d622-2270-4f44-8f7f-c4b3d47cf877",
       "command": "EVENT_LOOP",
-      "args": {},
+      "args": {
+        "__collapse": true
+      },
       "children": {
         "true": [
           {
@@ -128,5 +140,6 @@
   ],
   "playerHit1Script": [],
   "playerHit2Script": [],
-  "playerHit3Script": []
+  "playerHit3Script": [],
+  "autoFadeEventCollapse": true
 }
