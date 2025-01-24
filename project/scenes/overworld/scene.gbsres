@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "d9595a2e-a9eb-4610-8939-fd2abc8912f3",
+  "_index": 1,
+  "name": "Overworld",
+  "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_2",
+  "x": 292.2739726027397,
+  "y": 167.06849315068496,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}
