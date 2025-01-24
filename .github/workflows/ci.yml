@@ -1,0 +1,27 @@
+name: ci
+on: [push]
+jobs:
+  build:
+    name: build
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: pull gb studio from repo
+      run: git clone https://github.com/chrismaltby/gb-studio.git
+    - name: install gb studio 
+      working-directory: gb-studio 
+      run: |
+        yarn
+        npm run make:cli
+        yarn link
+        chmod 0777 /usr/local/bin/gb-studio-cli
+     
+    - name: build the project 
+      run: gb-studio-cli make:rom bubblequack.gbsproj out/bubblequack.gbc
+
+    - name: Archive production artifacts
+      uses: actions/upload-artifact@v3
+      with:
+        name: bubblequack
+        path: out/bubblqequack.gbc
