@@ -20,7 +20,7 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "quack"
+          "Quacking Bubbles!\nWhat is that\nelephant doing?"
         ],
         "__section": "text",
         "avatarId": "",
