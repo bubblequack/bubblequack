@@ -12,13 +12,16 @@ jobs:
     - name: install gb studio 
       working-directory: gb-studio 
       run: |
+        git submodule update --init --recursive
+        # npm install -g corepack
+        corepack enable
         yarn
+        npm start
         npm run make:cli
         yarn link
-        chmod 0777 /usr/local/bin/gb-studio-cli
      
     - name: build the project 
-      run: gb-studio-cli make:rom bubblequack.gbsproj out/bubblequack.gbc
+      run: $(yarn bin gb-studio-cli) make:rom bubblequack.gbsproj out/bubblequack.gbc
 
     - name: Archive production artifacts
       uses: actions/upload-artifact@v3
