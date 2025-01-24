@@ -20,7 +20,7 @@ jobs:
         npm run make:cli
         yarn link
         $(yarn bin gb-studio-cli) -V
-        $(yarn bin gb-studio-cli) make:rom bubblequack.gbsproj out/bubblequack.gbc
+        $(yarn bin gb-studio-cli) make:rom ../bubblequack.gbsproj ../out/bubblequack.gbc
 
     - name: Archive production artifacts
       uses: actions/upload-artifact@v3
