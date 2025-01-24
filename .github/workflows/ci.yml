@@ -27,10 +27,10 @@ jobs:
       uses: actions/upload-artifact@v3
       with:
         name: bubblequack
-        path: out/bubblqequack.gbc
+        path: gb-studio/out/bubblqequack.gbc
 
     - name: Deploy to GitHub Pages 🚀        
       uses: JamesIves/github-pages-deploy-action@releases/v4
       with:
-        folder: html
+        folder: gb-studio/html
 
