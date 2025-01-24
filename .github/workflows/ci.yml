@@ -19,7 +19,8 @@ jobs:
         npm start
         npm run make:cli
         yarn link
-     
+        $(yarn bin gb-studio-cli) -V
+
     - name: build the project 
       run: $(yarn bin gb-studio-cli) make:rom bubblequack.gbsproj out/bubblequack.gbc
 
