@@ -21,9 +21,16 @@ jobs:
         yarn link
         $(yarn bin gb-studio-cli) -V
         $(yarn bin gb-studio-cli) make:rom ../bubblequack.gbsproj ../out/bubblequack.gbc
+        $(yarn bin gb-studio-cli) make:web ../bubblequack.gbsproj ../html
 
     - name: Archive production artifacts
       uses: actions/upload-artifact@v3
       with:
         name: bubblequack
         path: out/bubblqequack.gbc
+
+    - name: Deploy to GitHub Pages 🚀        
+      uses: JamesIves/github-pages-deploy-action@releases/v4
+      with:
+        folder: html
+
