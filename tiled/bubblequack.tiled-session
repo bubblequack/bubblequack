@@ -39,7 +39,7 @@
             "dynamicWrapping": true
         }
     },
-    "last.imagePath": "/home/markus/git/bubblequack/bubblequack/assets/sprites",
+    "last.imagePath": "/home/markus/git/bubblequack/bubblequack/tiled/sprites",
     "map.height": 60,
     "map.lastUsedFormat": "tmx",
     "map.tileHeight": 16,
