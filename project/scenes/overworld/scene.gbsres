@@ -24,7 +24,7 @@
           "value": "7"
         },
         "__collapseElse": true,
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -41,7 +41,7 @@
               "actorId": "76100c28-2d38-4444-af77-24ac80c8cbf7",
               "x": {
                 "type": "number",
-                "value": 17
+                "value": 13
               },
               "y": {
                 "type": "number",
@@ -56,7 +56,7 @@
               "actorId": "76100c28-2d38-4444-af77-24ac80c8cbf7",
               "direction": {
                 "type": "direction",
-                "value": "left"
+                "value": "right"
               }
             },
             "id": "356cf166-a795-481c-937e-ac3b911e6dae"

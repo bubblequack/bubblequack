@@ -26,7 +26,7 @@
             "value": "7"
           }
         },
-        "__collapseElse": true
+        "__collapseElse": false
       },
       "children": {
         "true": [
@@ -37,7 +37,7 @@
                 "type": "variable",
                 "value": "8"
               },
-              "__collapseElse": false
+              "__collapseElse": true
             },
             "children": {
               "true": [
@@ -76,7 +76,7 @@
                       }
                     },
                     "__collapseElse": true,
-                    "__collapse": true
+                    "__collapse": false
                   },
                   "children": {
                     "true": [
@@ -154,17 +154,28 @@
                           "actorId": "76100c28-2d38-4444-af77-24ac80c8cbf7",
                           "x": {
                             "type": "number",
-                            "value": 17
+                            "value": 13
                           },
                           "y": {
                             "type": "number",
                             "value": 52
                           },
-                          "moveType": "vertical",
+                          "moveType": "horizontal",
                           "useCollisions": true,
                           "__collapse": false
                         },
                         "id": "e417bad7-7368-4780-a380-a58f4dc2a795"
+                      },
+                      {
+                        "command": "EVENT_ACTOR_SET_DIRECTION",
+                        "args": {
+                          "actorId": "76100c28-2d38-4444-af77-24ac80c8cbf7",
+                          "direction": {
+                            "type": "direction",
+                            "value": "right"
+                          }
+                        },
+                        "id": "42e938ee-ec85-4b62-a268-e0e3a45b7e53"
                       },
                       {
                         "command": "EVENT_TEXT",
@@ -210,7 +221,8 @@
                         "value": 2
                       }
                     },
-                    "__collapseElse": true
+                    "__collapseElse": true,
+                    "__collapse": true
                   },
                   "children": {
                     "true": [
