@@ -1,0 +1,94 @@
+{
+  "_resourceType": "actor",
+  "id": "0fbcae12-56cf-4c1f-9241-ef1684702e75",
+  "name": "Elephant_Bubble1",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "4cd287f1-62a5-4fb0-aa3a-410a0a0c8653",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": true,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_15",
+  "script": [],
+  "startScript": [
+    {
+      "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "716bf764-ff56-4bad-93a2-52509f6d4f5e"
+    }
+  ],
+  "updateScript": [
+    {
+      "command": "EVENT_LOOP",
+      "args": {},
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_MOVE_TO",
+            "args": {
+              "actorId": "$self$",
+              "x": {
+                "type": "number",
+                "value": 62
+              },
+              "y": {
+                "type": "number",
+                "value": 59
+              },
+              "moveType": "horizontal",
+              "useCollisions": false
+            },
+            "id": "f5e6642b-92d4-420d-8911-593f77d914bd"
+          },
+          {
+            "command": "EVENT_ACTOR_MOVE_TO",
+            "args": {
+              "actorId": "$self$",
+              "x": {
+                "type": "number",
+                "value": 84
+              },
+              "y": {
+                "type": "number",
+                "value": 84
+              },
+              "moveType": "horizontal",
+              "useCollisions": false
+            },
+            "id": "47769ded-7d5f-4d76-a7d4-57e630350ce3"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_POSITION",
+            "args": {
+              "actorId": "$self$",
+              "x": {
+                "type": "number",
+                "value": 61
+              },
+              "y": {
+                "type": "number",
+                "value": 3
+              }
+            },
+            "id": "ae346dae-5878-41a9-92d3-6694854eba9e"
+          }
+        ]
+      },
+      "id": "55e591be-e049-4f27-9daf-d0597b2273f2"
+    }
+  ],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 61,
+  "y": 5,
+  "_index": 14
+}
