@@ -14,33 +14,6 @@
       "command": "EVENT_SET_INPUT_SCRIPT",
       "args": {
         "input": [
-          "b"
-        ],
-        "override": true,
-        "__scriptTabs": "press"
-      },
-      "children": {
-        "true": [
-          {
-            "command": "EVENT_SCENE_POP_STATE",
-            "args": {
-              "fadeSpeed": "2"
-            },
-            "id": "905e310b-2ced-42ce-8db9-322ab263d4e8"
-          },
-          {
-            "command": "EVENT_SCENE_RESET_STATE",
-            "args": {},
-            "id": "bbc401d9-da65-487f-9559-635c8beac395"
-          }
-        ]
-      },
-      "id": "f2adb32a-9540-47ef-bd14-086d3f889905"
-    },
-    {
-      "command": "EVENT_SET_INPUT_SCRIPT",
-      "args": {
-        "input": [
           "left"
         ],
         "override": true,
@@ -115,7 +88,7 @@
               "text": [
                 "You have $00$ coins."
               ],
-              "__section": "text",
+              "__section": "behavior",
               "avatarId": "",
               "minHeight": 4,
               "maxHeight": 7,
@@ -127,7 +100,7 @@
               "showFrame": "true",
               "speedIn": -1,
               "speedOut": -1,
-              "closeWhen": "key",
+              "closeWhen": "notModal",
               "closeButton": "a",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30

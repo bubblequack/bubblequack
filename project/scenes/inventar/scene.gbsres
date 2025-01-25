@@ -135,6 +135,40 @@
         }
       },
       "id": "79b6c989-50f5-449c-b13c-b59152316d9f"
+    },
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "b"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_DIALOGUE_CLOSE_NONMODAL",
+            "args": {
+              "speed": 0
+            },
+            "id": "36a75b6e-1c5d-40b3-9593-390bb3f107bb"
+          },
+          {
+            "command": "EVENT_SCENE_POP_STATE",
+            "args": {
+              "fadeSpeed": "2"
+            },
+            "id": "a2b6b09b-f0d6-4368-bd21-6c8bb4802105"
+          },
+          {
+            "command": "EVENT_SCENE_RESET_STATE",
+            "args": {},
+            "id": "0e67dc08-3118-49e5-b779-06155c91f4bb"
+          }
+        ]
+      },
+      "id": "4deff476-4803-48b0-9885-325385d97f03"
     }
   ],
   "playerHit1Script": [],
