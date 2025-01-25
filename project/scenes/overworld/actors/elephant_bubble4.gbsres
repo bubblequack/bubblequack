@@ -14,7 +14,7 @@
   "persistent": true,
   "collisionGroup": "",
   "prefabScriptOverrides": {},
-  "symbol": "actor_8",
+  "symbol": "actor_10",
   "script": [],
   "startScript": [
     {
@@ -90,5 +90,5 @@
   "hit3Script": [],
   "x": 61,
   "y": 40,
-  "_index": 8
+  "_index": 10
 }

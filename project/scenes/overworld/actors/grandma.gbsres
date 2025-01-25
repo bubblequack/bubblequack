@@ -14,7 +14,7 @@
   "persistent": false,
   "collisionGroup": "",
   "prefabScriptOverrides": {},
-  "symbol": "actor_7",
+  "symbol": "actor_8",
   "script": [
     {
       "command": "EVENT_IF",
@@ -145,5 +145,5 @@
   "hit3Script": [],
   "x": 24,
   "y": 58,
-  "_index": 7
+  "_index": 8
 }
