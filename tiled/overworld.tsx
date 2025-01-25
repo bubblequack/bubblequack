@@ -52,4 +52,7 @@
  <tile id="35">
   <image source="sprites/grass.png" width="16" height="16"/>
  </tile>
+ <tile id="36">
+  <image source="sprites/cave.png" width="64" height="64"/>
+ </tile>
 </tileset>
