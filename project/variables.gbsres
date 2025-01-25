@@ -62,6 +62,11 @@
       "symbol": "var_first_overworld_load"
     },
     {
+      "id": "12",
+      "name": "BUBBLE_LOOP",
+      "symbol": "var_bubble_loop"
+    },
+    {
       "id": "5cc178f2-2992-458d-9542-c9e71aa1f9a1__L0",
       "name": "Local 0",
       "symbol": "var_local_0"
@@ -155,11 +160,6 @@
       "id": "0a78b1ed-c8d6-426e-9f31-aa87c3d838f5__L0",
       "name": "Local 0",
       "symbol": "var_local_18"
-    },
-    {
-      "id": "12",
-      "name": "BUBBLE_LOOP",
-      "symbol": "var_bubble_loop"
     }
   ]
 }
