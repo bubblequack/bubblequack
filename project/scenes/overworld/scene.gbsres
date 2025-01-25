@@ -117,30 +117,58 @@
       "id": "93bbba8b-57b5-4a67-a7e4-330b87811dd1"
     },
     {
-      "command": "EVENT_TEXT",
+      "command": "EVENT_IF",
       "args": {
-        "text": [
-          "Ducking Bubbles!\nWhere do all\nthat bubbles\ncoming from?"
-        ],
-        "__section": "text",
-        "avatarId": "",
-        "minHeight": 4,
-        "maxHeight": 7,
-        "textX": 1,
-        "textY": 1,
-        "textHeight": 5,
-        "position": "bottom",
-        "clearPrevious": true,
-        "showFrame": "true",
-        "speedIn": -1,
-        "speedOut": -1,
-        "closeWhen": "key",
-        "closeButton": "a",
-        "closeDelayTime": 0.5,
-        "closeDelayFrames": 30,
+        "condition": {
+          "type": "variable",
+          "value": "11"
+        },
+        "__collapseElse": true,
         "__collapse": true
       },
-      "id": "72cab033-3cec-41cd-bb0d-95c01c2a2365"
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Ducking Bubbles!\nWhere do all\nthat bubbles\ncoming from?"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "72cab033-3cec-41cd-bb0d-95c01c2a2365"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "11",
+              "value": {
+                "type": "false"
+              },
+              "__collapse": true
+            },
+            "id": "da488724-b72f-4ad1-8748-6c3d78edfc3c"
+          }
+        ],
+        "false": []
+      },
+      "id": "a23be861-3bc0-4dc4-813e-76fc9d12b055"
     },
     {
       "command": "EVENT_SET_TIMER_SCRIPT",
