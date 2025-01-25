@@ -50,7 +50,7 @@
       "id": "c8d4d622-2270-4f44-8f7f-c4b3d47cf877",
       "command": "EVENT_LOOP",
       "args": {
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
