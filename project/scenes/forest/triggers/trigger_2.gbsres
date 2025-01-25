@@ -4,51 +4,80 @@
   "name": "",
   "prefabId": "",
   "x": 2,
-  "y": 2,
+  "y": 1,
   "symbol": "trigger_9",
   "prefabScriptOverrides": {},
   "width": 2,
-  "height": 2,
+  "height": 3,
   "script": [
     {
-      "command": "EVENT_VARIABLE_MATH",
+      "command": "EVENT_IF",
       "args": {
-        "vectorX": "0",
-        "operation": "add",
-        "other": "val",
-        "vectorY": "L0",
-        "value": 6,
-        "minValue": "0",
-        "maxValue": "32767",
-        "clamp": true
+        "condition": {
+          "type": "not",
+          "value": {
+            "type": "variable",
+            "value": "1"
+          }
+        },
+        "__collapseElse": true
       },
-      "id": "d016f94f-6216-4d49-b2c0-519daff21b10"
-    },
-    {
-      "command": "EVENT_TEXT",
-      "args": {
-        "text": [
-          "Walking through\nthe high grass\nyou found 6 gold.",
-          "You now have $00$\ngold left."
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_VARIABLE_MATH",
+            "args": {
+              "vectorX": "0",
+              "operation": "add",
+              "other": "val",
+              "vectorY": "L0",
+              "value": 6,
+              "minValue": "0",
+              "maxValue": "32767",
+              "clamp": true
+            },
+            "id": "d016f94f-6216-4d49-b2c0-519daff21b10"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Walking through\nthe high grass\nyou found 6 gold.",
+                "You now have $00$\ngold."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "0c13ec95-c4c8-4fc6-bd16-5022bfb82804"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "1",
+              "value": {
+                "type": "true"
+              }
+            },
+            "id": "4befe023-b5f0-4e2f-8cd4-63b9e41bccca"
+          }
         ],
-        "__section": "text",
-        "avatarId": "",
-        "minHeight": 4,
-        "maxHeight": 7,
-        "textX": 1,
-        "textY": 1,
-        "textHeight": 5,
-        "position": "bottom",
-        "clearPrevious": true,
-        "showFrame": "true",
-        "speedIn": -1,
-        "speedOut": -1,
-        "closeWhen": "key",
-        "closeButton": "a",
-        "closeDelayTime": 0.5,
-        "closeDelayFrames": 30
+        "false": []
       },
-      "id": "0c13ec95-c4c8-4fc6-bd16-5022bfb82804"
+      "id": "ff079453-fbd5-4762-b1bc-032fea670eaf"
     }
   ],
   "leaveScript": [],

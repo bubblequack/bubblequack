@@ -98,6 +98,16 @@
                   "id": "a8f95dfd-1b73-4bfc-89e6-eb516b2042fa"
                 },
                 {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "1",
+                    "value": {
+                      "type": "false"
+                    }
+                  },
+                  "id": "dbf01a15-ff9d-4c63-9bba-b667259e0224"
+                },
+                {
                   "id": "beff8ff2-f36f-4b0d-a7c9-dc54f3a421bf",
                   "command": "EVENT_SWITCH_SCENE",
                   "args": {
