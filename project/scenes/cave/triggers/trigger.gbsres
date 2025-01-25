@@ -20,9 +20,9 @@
         },
         "y": {
           "type": "number",
-          "value": 25
+          "value": 42
         },
-        "direction": "",
+        "direction": "right",
         "fadeSpeed": "2"
       },
       "id": "14163b8e-b6db-429a-9c88-d28d4e9bec3b"
