@@ -143,25 +143,13 @@
       "id": "72cab033-3cec-41cd-bb0d-95c01c2a2365"
     },
     {
-      "command": "EVENT_SET_VALUE",
-      "args": {
-        "variable": "6",
-        "value": {
-          "type": "number",
-          "value": 0
-        },
-        "__collapse": true
-      },
-      "id": "3a92f2ea-85c7-4f8d-b509-b572cc9410a2"
-    },
-    {
       "command": "EVENT_SET_TIMER_SCRIPT",
       "args": {
         "timer": 1,
         "duration": 0.5,
         "frames": 30,
         "__scriptTabs": "end",
-        "__collapse": true,
+        "__collapse": false,
         "__comment": false
       },
       "children": {
@@ -191,49 +179,6 @@
               "__collapse": false
             },
             "id": "b6b84a78-0c33-47c3-93cb-d329863682dc"
-          },
-          {
-            "command": "EVENT_IF",
-            "args": {
-              "condition": {
-                "type": "lt",
-                "valueA": {
-                  "type": "variable",
-                  "value": "6"
-                },
-                "valueB": {
-                  "type": "number",
-                  "value": 3
-                }
-              },
-              "__collapseElse": false,
-              "__collapse": false
-            },
-            "children": {
-              "true": [
-                {
-                  "command": "EVENT_INC_VALUE",
-                  "args": {
-                    "variable": "6"
-                  },
-                  "id": "fe990daf-e066-43b4-b1ac-a896cdcdecc8"
-                }
-              ],
-              "false": [
-                {
-                  "command": "EVENT_SET_VALUE",
-                  "args": {
-                    "variable": "6",
-                    "value": {
-                      "type": "number",
-                      "value": 0
-                    }
-                  },
-                  "id": "897c5c83-a449-49db-a43f-f84d333df5fe"
-                }
-              ]
-            },
-            "id": "94749588-4c1e-4b00-86a8-6a4d9d567594"
           }
         ]
       },
@@ -296,7 +241,7 @@
                 "value": "9"
               },
               "__collapseElse": true,
-              "__collapse": true
+              "__collapse": false
             },
             "children": {
               "true": [
@@ -316,7 +261,7 @@
                     },
                     "moveType": "horizontal",
                     "useCollisions": true,
-                    "__collapse": true
+                    "__collapse": false
                   },
                   "id": "d0603be9-75b4-4996-8b22-4165d13754db"
                 }
