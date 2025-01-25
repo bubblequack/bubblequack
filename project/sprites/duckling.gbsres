@@ -3,10 +3,10 @@
   "id": "59d1f5de-cd82-44d7-9954-e032fab9c36c",
   "name": "duckling",
   "symbol": "sprite_duckling",
-  "numFrames": 1,
+  "numFrames": 2,
   "filename": "duckling.png",
-  "checksum": "882402e9a545203c46958815ecf70833c8dc45ac",
-  "width": 16,
+  "checksum": "18b7b7ab7b957ced42715504a210db1c8505faf1",
+  "width": 32,
   "height": 16,
   "states": [
     {
