@@ -37,7 +37,7 @@
       "command": "EVENT_ACTOR_DEACTIVATE",
       "args": {
         "actorId": "$self$",
-        "__collapse": true
+        "__collapse": false
       },
       "id": "f62250f3-d815-4b97-9970-6b55da3d8cbd"
     },
@@ -50,7 +50,7 @@
           "start",
           "select"
         ],
-        "__collapse": true
+        "__collapse": false
       },
       "id": "4ce41d17-d9ab-47b7-a848-7482436caa4b"
     },
@@ -58,7 +58,7 @@
       "id": "c8d4d622-2270-4f44-8f7f-c4b3d47cf877",
       "command": "EVENT_LOOP",
       "args": {
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -125,7 +125,9 @@
                         "id": "bb77f464-930c-4b0f-8184-e8e2f911e183",
                         "command": "EVENT_TEXT",
                         "args": {
-                          "text": "No Save Data\nFound..."
+                          "text": [
+                            "No save data\nfound..."
+                          ]
                         }
                       }
                     ]
@@ -151,5 +153,5 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "autoFadeEventCollapse": true
+  "autoFadeEventCollapse": false
 }
