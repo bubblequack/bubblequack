@@ -222,7 +222,7 @@
                       }
                     },
                     "__collapseElse": true,
-                    "__collapse": true
+                    "__collapse": false
                   },
                   "children": {
                     "true": [
@@ -233,7 +233,7 @@
                             "Purrrrrr...\nPurrrrrr...\nPurrrrrr..."
                           ],
                           "__section": "text",
-                          "avatarId": "",
+                          "avatarId": "e14bcf25-e96d-42d0-b141-a80a0a72bf5f",
                           "minHeight": 4,
                           "maxHeight": 7,
                           "textX": 1,

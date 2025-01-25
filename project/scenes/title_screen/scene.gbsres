@@ -50,7 +50,7 @@
       "id": "c8d4d622-2270-4f44-8f7f-c4b3d47cf877",
       "command": "EVENT_LOOP",
       "args": {
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "true": [
@@ -114,11 +114,11 @@
                     "sceneId": "d9595a2e-a9eb-4610-8939-fd2abc8912f3",
                     "x": {
                       "type": "number",
-                      "value": 29
+                      "value": 44
                     },
                     "y": {
                       "type": "number",
-                      "value": 23
+                      "value": 37
                     },
                     "direction": "right",
                     "fadeSpeed": "4"
