@@ -30,7 +30,8 @@
             "value": 1
           }
         },
-        "__collapseElse": false
+        "__collapseElse": false,
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -100,7 +101,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "I don't like flat\nwater. Bring me\nsome sparkling\nwater to drink and\nI will stop."
+                "The water is so stale. I like it bubbly. Everyone likes it bubbly. Bubbly water is the best!"
               ],
               "__section": "text",
               "avatarId": "",
@@ -125,7 +126,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "I'm gonna get my\nduck gang and mess\nyou up! Or get you\nsome water,\nwhatever is\nquicker."
+                "I'm gonna get my\nduck gang and mess\nyou up! Or is there another way?..."
               ],
               "__section": "text",
               "avatarId": "",
