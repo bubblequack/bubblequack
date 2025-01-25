@@ -16,42 +16,7 @@
   "prefabScriptOverrides": {},
   "symbol": "actor_3",
   "script": [],
-  "startScript": [
-    {
-      "command": "EVENT_ACTOR_MOVE_TO",
-      "args": {
-        "actorId": "$self$",
-        "x": {
-          "type": "number",
-          "value": 61
-        },
-        "y": {
-          "type": "number",
-          "value": 60
-        },
-        "moveType": "horizontal",
-        "useCollisions": false
-      },
-      "id": "0de7ed1d-139e-421b-9148-3bf2d1f270f8"
-    },
-    {
-      "command": "EVENT_ACTOR_MOVE_TO",
-      "args": {
-        "actorId": "$self$",
-        "x": {
-          "type": "number",
-          "value": 83
-        },
-        "y": {
-          "type": "number",
-          "value": 84
-        },
-        "moveType": "horizontal",
-        "useCollisions": false
-      },
-      "id": "30c04de3-f6ca-40a3-b38f-68958bb72c98"
-    }
-  ],
+  "startScript": [],
   "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],
