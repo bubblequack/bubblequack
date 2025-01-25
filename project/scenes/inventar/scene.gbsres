@@ -19,6 +19,33 @@
   "y": 496,
   "script": [
     {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Game saved"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__collapse": true,
+        "__comment": true
+      },
+      "id": "ade00814-c92f-48f5-a481-986e969d6e1d"
+    },
+    {
       "command": "EVENT_IF",
       "args": {
         "condition": {
@@ -132,7 +159,8 @@
         "direction": {
           "type": "direction",
           "value": "up"
-        }
+        },
+        "__collapse": true
       },
       "id": "79b6c989-50f5-449c-b13c-b59152316d9f"
     },
@@ -143,7 +171,8 @@
           "b"
         ],
         "override": true,
-        "__scriptTabs": "press"
+        "__scriptTabs": "press",
+        "__collapse": true
       },
       "children": {
         "true": [
@@ -173,5 +202,6 @@
   ],
   "playerHit1Script": [],
   "playerHit2Script": [],
-  "playerHit3Script": []
+  "playerHit3Script": [],
+  "autoFadeEventCollapse": true
 }

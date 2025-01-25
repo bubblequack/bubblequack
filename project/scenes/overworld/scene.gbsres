@@ -361,6 +361,60 @@
         ]
       },
       "id": "6e2f8eed-95af-4edc-958e-134fec2c27c4"
+    },
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "start"
+        ],
+        "override": true,
+        "__scriptTabs": "press",
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SAVE_DATA",
+            "args": {
+              "saveSlot": 0,
+              "__scriptTabs": "save"
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "Game saved"
+                    ],
+                    "__section": "text",
+                    "avatarId": "",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "cc599c4a-5c19-400e-9b92-6a8ecc9ec977"
+                }
+              ],
+              "load": []
+            },
+            "id": "20f8788a-d4e5-4e1e-b509-e8847fc612e1"
+          }
+        ]
+      },
+      "id": "dd29a35e-1c2c-46c8-831e-9f7ceebeb2a7"
     }
   ],
   "playerHit1Script": [],

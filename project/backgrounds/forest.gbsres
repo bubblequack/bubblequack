@@ -8,5 +8,6 @@
   "imageWidth": 240,
   "imageHeight": 240,
   "filename": "forest.png",
-  "tileColors": ""
+  "tileColors": "",
+  "autoColor": false
 }

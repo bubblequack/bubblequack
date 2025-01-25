@@ -34,11 +34,11 @@
             }
         },
         "overworld.tmx": {
-            "scale": 5.0539,
+            "scale": 1.6228,
             "selectedLayer": 1,
             "viewCenter": {
-                "x": 239.9137299907003,
-                "y": 239.9137299907003
+                "x": 273.6011831402514,
+                "y": 255.42272615232932
             }
         },
         "overworld.tmx#Overworld": {
