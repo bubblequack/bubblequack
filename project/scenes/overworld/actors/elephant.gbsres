@@ -39,7 +39,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Thank you! Now I\ndon't have to blow\nbubbles any more."
+                "Bubbly water! So much bubbly water! Thank you! *Stops blowing bubbles*"
               ],
               "__section": "text",
               "avatarId": "",
