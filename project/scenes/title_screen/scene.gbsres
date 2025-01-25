@@ -15,8 +15,8 @@
     "",
     "",
     "",
-    "",
-    ""
+    "79ee9780-d7a2-44ed-997c-86a5051b0d43",
+    "6ba800c0-00d1-422d-9794-51c781a85e8c"
   ],
   "spritePaletteIds": [],
   "collisions": "",
@@ -92,11 +92,11 @@
                     "sceneId": "d9595a2e-a9eb-4610-8939-fd2abc8912f3",
                     "x": {
                       "type": "number",
-                      "value": 4
+                      "value": 61
                     },
                     "y": {
                       "type": "number",
-                      "value": 13
+                      "value": 62
                     },
                     "direction": "right",
                     "fadeSpeed": "4"
