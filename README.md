@@ -1,6 +1,8 @@
 ![CI Build](https://github.com/bubblequack/bubblequack/actions/workflows/ci.yml/badge.svg)
 
 # BubbleQuack
+<img src="assets/screenshots/menu.png" width="50%" /><img src="assets/screenshots/game.png" width="50%" />
+
 Stop the elephant from bubbling up your pond and find your ducklings.
 
 This game was made for the [Global Game Jam 2025](https://globalgamejam.org/games/2025/bubblequack-9) in 48 hours.
