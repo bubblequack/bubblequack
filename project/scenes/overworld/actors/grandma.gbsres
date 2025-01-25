@@ -1,0 +1,138 @@
+{
+  "_resourceType": "actor",
+  "id": "76100c28-2d38-4444-af77-24ac80c8cbf7",
+  "name": "Grandma",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
+  "prefabId": "",
+  "direction": "right",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_6",
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "variable",
+          "value": "7"
+        },
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Can I haz bread?\n"
+              ],
+              "__section": "text",
+              "avatarId": "e100338f-ae40-4e17-90f5-4603eb358b19",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "a5b9a2ea-8944-49cd-be2c-f40c5b1339c1"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Sure here you go\nsweet duck."
+              ],
+              "__section": "text",
+              "avatarId": "4caf3d29-130a-4eaa-9f7b-478fee992c23",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "3df0c311-46cf-4593-a81d-d6a652d34223"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_ACTOR_EMOTE",
+            "args": {
+              "actorId": "$self$",
+              "emoteId": "edf96d29-9a08-4813-b2d3-46e0996f89f2"
+            },
+            "id": "be20a6ad-276f-472e-b5ec-5e951a9704d7"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "I like this\nduckling so\nmuch. Almost as\nmuch as my cat."
+              ],
+              "__section": "text",
+              "avatarId": "4caf3d29-130a-4eaa-9f7b-478fee992c23",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "7e70d52e-8d39-4e69-a9a7-29556be70a1b"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "8",
+              "value": {
+                "type": "true"
+              }
+            },
+            "id": "84ef9b01-7b29-4560-b5e9-75beb9089ff1"
+          }
+        ]
+      },
+      "id": "02420179-6a85-4d0a-99c1-d21041a0f71f"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 24,
+  "y": 58,
+  "_index": 6
+}

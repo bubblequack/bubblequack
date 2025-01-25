@@ -35,6 +35,16 @@
       "id": "6",
       "name": "WATER_LOOP",
       "symbol": "var_water_loop"
+    },
+    {
+      "id": "7",
+      "name": "cat scared",
+      "symbol": "var_cat_scared"
+    },
+    {
+      "id": "8",
+      "name": "found grandma",
+      "symbol": "var_found_grandma"
     }
   ]
 }
