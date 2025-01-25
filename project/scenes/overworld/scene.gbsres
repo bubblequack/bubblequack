@@ -299,7 +299,7 @@
               },
               "y": {
                 "type": "number",
-                "value": 4
+                "value": 6
               },
               "direction": "",
               "fadeSpeed": "2"
