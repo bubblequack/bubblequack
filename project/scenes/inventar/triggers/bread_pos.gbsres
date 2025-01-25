@@ -3,7 +3,7 @@
   "id": "0dad8a64-7dc7-4070-a99c-8d703a41182c",
   "name": "bread pos",
   "prefabId": "",
-  "x": 6,
+  "x": 7,
   "y": 4,
   "symbol": "trigger_2",
   "prefabScriptOverrides": {},

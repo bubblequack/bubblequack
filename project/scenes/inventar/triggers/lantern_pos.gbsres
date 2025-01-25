@@ -3,7 +3,7 @@
   "id": "06316576-7979-4d2f-b437-beae249b1fba",
   "name": "lantern pos",
   "prefabId": "",
-  "x": 10,
+  "x": 12,
   "y": 4,
   "symbol": "trigger_5",
   "prefabScriptOverrides": {},

@@ -3,7 +3,7 @@
   "id": "f15d60e7-edf4-4f70-a716-81bbc2a288ca",
   "name": "water pos",
   "prefabId": "",
-  "x": 1,
+  "x": 2,
   "y": 4,
   "symbol": "trigger_4",
   "prefabScriptOverrides": {},
