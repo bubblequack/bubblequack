@@ -31,10 +31,10 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "I have seen your\nduckling by the\nmouse down south."
+                "I have seen your\nduckling by the\nmouse down\nsouth."
               ],
               "__section": "text",
-              "avatarId": "",
+              "avatarId": "9eb246d8-6b6d-4811-ae5f-d1f82ac5294a",
               "minHeight": 4,
               "maxHeight": 7,
               "textX": 1,
@@ -89,10 +89,10 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "It's dangerous out\nhere and it's time\nto pay your\nprotection fee.\nOr else..."
+                "It's dangerous\nout here and it\nis time to pay\nyour protection\nfee. Or else..."
               ],
               "__section": "text",
-              "avatarId": "",
+              "avatarId": "e100338f-ae40-4e17-90f5-4603eb358b19",
               "minHeight": 4,
               "maxHeight": 7,
               "textX": 1,
@@ -114,10 +114,10 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Oh my gosh,\nalready? OK, OK.\nHere is the money."
+                "Oh my gosh,\nalready? OK, OK.\nHere is the\nmoney."
               ],
               "__section": "text",
-              "avatarId": "",
+              "avatarId": "9eb246d8-6b6d-4811-ae5f-d1f82ac5294a",
               "minHeight": 4,
               "maxHeight": 7,
               "textX": 1,
@@ -185,7 +185,7 @@
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 16,
-  "y": 3,
+  "x": 89,
+  "y": 27,
   "_index": 1
 }
