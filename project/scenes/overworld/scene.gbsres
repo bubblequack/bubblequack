@@ -82,7 +82,7 @@
           "value": "9"
         },
         "__collapseElse": true,
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -423,7 +423,7 @@
         "duration": 2,
         "frames": 30,
         "__scriptTabs": "end",
-        "__collapse": false,
+        "__collapse": true,
         "__comment": false
       },
       "children": {
