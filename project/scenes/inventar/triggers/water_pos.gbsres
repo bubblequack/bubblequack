@@ -3,8 +3,8 @@
   "id": "f15d60e7-edf4-4f70-a716-81bbc2a288ca",
   "name": "water pos",
   "prefabId": "",
-  "x": 1,
-  "y": 4,
+  "x": 2,
+  "y": 6,
   "symbol": "trigger_4",
   "prefabScriptOverrides": {},
   "width": 2,
@@ -54,11 +54,11 @@
               "actorId": "$self$",
               "x": {
                 "type": "number",
-                "value": 6
+                "value": 7
               },
               "y": {
                 "type": "number",
-                "value": 4
+                "value": 6
               }
             },
             "id": "b2d9617d-777a-4e2a-85cc-5008be431fff"
