@@ -27,7 +27,7 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Ducking Bubbles!\nWhat is that\nelephant doing?"
+          "Ducking Bubbles!\nWhere do all\nthat bubbles\ncoming from?"
         ],
         "__section": "text",
         "avatarId": "",
