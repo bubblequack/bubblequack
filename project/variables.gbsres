@@ -160,6 +160,11 @@
       "id": "0a78b1ed-c8d6-426e-9f31-aa87c3d838f5__L0",
       "name": "Local 0",
       "symbol": "var_local_18"
+    },
+    {
+      "id": "13",
+      "name": "found duckling grass",
+      "symbol": "var_found_duckling_grass"
     }
   ]
 }
