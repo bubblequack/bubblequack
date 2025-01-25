@@ -124,7 +124,7 @@
           "value": "11"
         },
         "__collapseElse": true,
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -132,7 +132,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Ducking Bubbles!\nWhere do all\nthat bubbles\ncoming from?"
+                "Ducking Bubbles!\nWhere do all\nthose bubbles\ncome from?"
               ],
               "__section": "text",
               "avatarId": "",
@@ -150,7 +150,7 @@
               "closeButton": "a",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": true
+              "__collapse": false
             },
             "id": "72cab033-3cec-41cd-bb0d-95c01c2a2365"
           },
