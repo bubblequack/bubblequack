@@ -52,6 +52,7 @@
         "Overworld.tsx",
         "Overworld.tmx"
     ],
+    "resizeMap.removeObjects": false,
     "tileset.lastUsedFormat": "tsx",
     "tileset.type": 1
 }
