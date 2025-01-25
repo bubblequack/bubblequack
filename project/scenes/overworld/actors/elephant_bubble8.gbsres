@@ -1,6 +1,6 @@
 {
   "_resourceType": "actor",
-  "id": "5cc178f2-2992-458d-9542-c9e71aa1f9a1",
+  "id": "c7b95d46-96ce-459e-9ea4-41c4563b350a",
   "name": "Elephant_Bubble1",
   "frame": 0,
   "animate": false,
@@ -14,7 +14,7 @@
   "persistent": true,
   "collisionGroup": "",
   "prefabScriptOverrides": {},
-  "symbol": "actor_3",
+  "symbol": "actor_14",
   "script": [],
   "startScript": [
     {
@@ -22,7 +22,7 @@
       "args": {
         "actorId": "$self$"
       },
-      "id": "53c60d56-4bb8-45cb-a67e-88a83f207809"
+      "id": "8a0b6e86-0229-47e1-8954-32c45f0d8c8c"
     }
   ],
   "updateScript": [
@@ -46,7 +46,7 @@
               "moveType": "horizontal",
               "useCollisions": false
             },
-            "id": "41cfe241-b698-4c5b-ad05-c09754372c6e"
+            "id": "16de66e0-fdd5-40ba-97e0-768d3bcab685"
           },
           {
             "command": "EVENT_ACTOR_MOVE_TO",
@@ -63,7 +63,7 @@
               "moveType": "horizontal",
               "useCollisions": false
             },
-            "id": "90a4bab1-4c95-46a5-af2d-8bb87935a51f"
+            "id": "5e497c5e-bf4e-44a7-a8d4-13767067d2d1"
           },
           {
             "command": "EVENT_ACTOR_SET_POSITION",
@@ -78,17 +78,17 @@
                 "value": 3
               }
             },
-            "id": "25713f2f-616b-46de-ae76-df4d8170bc8b"
+            "id": "5e76eccb-6758-459e-8fcc-b8209f443d52"
           }
         ]
       },
-      "id": "98ef204c-ca53-41f2-a85f-99e394b9e3f8"
+      "id": "aece6d35-275e-42d6-865b-7807e76ed67b"
     }
   ],
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
   "x": 61,
-  "y": 15,
-  "_index": 3
+  "y": 11,
+  "_index": 12
 }
