@@ -30,9 +30,11 @@
           {
             "command": "EVENT_TEXT",
             "args": {
-              "text": "",
+              "text": [
+                "I have seen your\nduckling in the\ndark cave west\nof here."
+              ],
               "__section": "text",
-              "avatarId": "",
+              "avatarId": "31f6f325-a848-4e93-a609-99165df12957",
               "minHeight": 4,
               "maxHeight": 7,
               "textX": 1,
