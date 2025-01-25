@@ -152,11 +152,11 @@
                           "actorId": "76100c28-2d38-4444-af77-24ac80c8cbf7",
                           "x": {
                             "type": "number",
-                            "value": 16
+                            "value": 17
                           },
                           "y": {
                             "type": "number",
-                            "value": 37
+                            "value": 52
                           },
                           "moveType": "vertical",
                           "useCollisions": true,
@@ -236,7 +236,7 @@
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 13,
-  "y": 51,
+  "x": 15,
+  "y": 52,
   "_index": 8
 }
