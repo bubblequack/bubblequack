@@ -3,10 +3,10 @@
   "id": "e7c6ff34-1f1c-40fd-a7e7-71ab1789360c",
   "name": "duck_walk_1",
   "symbol": "sprite_duck_walk_1",
-  "numFrames": 2,
+  "numFrames": 3,
   "filename": "duck_walk_1.png",
-  "checksum": "baa536e6e3f0e1eb23df702587844bdebe85cd05",
-  "width": 32,
+  "checksum": "91c2ec10b6a47732a60cd1eafd49a1b82d22fdd7",
+  "width": 48,
   "height": 16,
   "states": [
     {
@@ -39,6 +39,37 @@
                   "x": 0,
                   "y": 0,
                   "sliceX": 8,
+                  "sliceY": 0,
+                  "palette": 0,
+                  "flipX": true,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 1,
+                  "priority": false
+                }
+              ]
+            },
+            {
+              "id": "af263db5-0394-4c7e-9944-1b6139c33111",
+              "tiles": [
+                {
+                  "id": "fe3a941c-86e4-4012-8f2d-18a63222d0a2",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 0,
+                  "palette": 0,
+                  "flipX": true,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 1,
+                  "priority": false
+                },
+                {
+                  "id": "bfc2d616-8326-45f4-bf72-f27cb978a4c8",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 40,
                   "sliceY": 0,
                   "palette": 0,
                   "flipX": true,
@@ -93,6 +124,37 @@
                   "priority": false
                 }
               ]
+            },
+            {
+              "id": "40780cf7-9262-4aed-85b2-ee4ff7abd3ad",
+              "tiles": [
+                {
+                  "id": "c5814236-7aad-4e1d-992a-6372cf48a20d",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 0,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 1,
+                  "priority": false
+                },
+                {
+                  "id": "28948291-8ae6-4f4b-a98d-047f3326b5a2",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 40,
+                  "sliceY": 0,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 1,
+                  "priority": false
+                }
+              ]
             }
           ]
         },
@@ -120,6 +182,37 @@
                   "x": 8,
                   "y": 0,
                   "sliceX": 8,
+                  "sliceY": 0,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 1,
+                  "priority": false
+                }
+              ]
+            },
+            {
+              "id": "84ffbd6d-7f0c-485f-83ef-b81897116fde",
+              "tiles": [
+                {
+                  "id": "44fa3941-1029-4d06-94e8-b4db1a7286a6",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 0,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 1,
+                  "priority": false
+                },
+                {
+                  "id": "ebabb391-b317-4997-87f8-6f426d070113",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 40,
                   "sliceY": 0,
                   "palette": 0,
                   "flipX": false,
@@ -438,7 +531,7 @@
       ]
     }
   ],
-  "numTiles": 4,
+  "numTiles": 5,
   "canvasWidth": 16,
   "canvasHeight": 16,
   "boundsX": 0,
