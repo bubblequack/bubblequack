@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "7af77416-a2cb-44cf-81ca-26e4a0897060",
+  "name": "water_wave_tileset",
+  "symbol": "tileset_water_wave_tileset",
+  "width": 8,
+  "height": 2,
+  "imageWidth": 64,
+  "imageHeight": 16,
+  "filename": "water_wave_tileset.png"
+}

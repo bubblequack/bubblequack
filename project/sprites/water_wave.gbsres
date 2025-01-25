@@ -48,6 +48,68 @@
                   "priority": false
                 }
               ]
+            },
+            {
+              "id": "15e0a398-c07f-4d7c-873b-23a2a5f780c3",
+              "tiles": [
+                {
+                  "id": "181d5178-dcbe-4ac0-ae57-b88558b75801",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 0,
+                  "palette": 0,
+                  "flipX": true,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                },
+                {
+                  "id": "71174c80-a7a2-4eac-8e19-e2ed5b2a9e78",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 8,
+                  "sliceY": 0,
+                  "palette": 0,
+                  "flipX": true,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                }
+              ]
+            },
+            {
+              "id": "141d356b-5178-46a6-a37f-07d95d289fa1",
+              "tiles": [
+                {
+                  "id": "46b4fd94-5334-463f-8a7f-6082b71f6718",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 0,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": true,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                },
+                {
+                  "id": "f44107eb-ddfd-4ce4-8f38-ae05e08bbc1b",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 8,
+                  "sliceY": 0,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": true,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                }
+              ]
             }
           ]
         },

@@ -30,6 +30,11 @@
       "id": "5",
       "name": "found elephant",
       "symbol": "var_found_elephant"
+    },
+    {
+      "id": "6",
+      "name": "WATER_LOOP",
+      "symbol": "var_water_loop"
     }
   ]
 }
