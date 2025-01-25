@@ -8,7 +8,7 @@ jobs:
       - uses: actions/checkout@v4
       - name: export
         run: |
-          gb-studio-cli make:rom bubblequack.gbsproj out/bubblequack.gb
+          gb-studio-cli make:rom bubblequack.gbsproj out/bubblequack.gbc
           gb-studio-cli make:pocket bubblequack.gbsproj out/bubblequack.pocket
           gb-studio-cli make:web bubblequack.gbsproj out/
       - name: Upload artifact

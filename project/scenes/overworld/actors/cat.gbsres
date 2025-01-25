@@ -45,10 +45,10 @@
                   "command": "EVENT_MENU",
                   "args": {
                     "variable": "L0",
-                    "items": 2,
+                    "items": 3,
                     "option1": "Intimidate",
-                    "option2": "Leave",
-                    "option3": "",
+                    "option2": "Pet",
+                    "option3": "Leave",
                     "option4": "",
                     "option5": "",
                     "option6": "",
@@ -56,7 +56,8 @@
                     "option8": "",
                     "cancelOnB": true,
                     "layout": "dialogue",
-                    "cancelOnLastOption": true
+                    "cancelOnLastOption": true,
+                    "__collapse": false
                   },
                   "id": "93780543-cd4a-4700-9372-1aaf9cf2cade"
                 },
@@ -74,7 +75,8 @@
                         "value": 1
                       }
                     },
-                    "__collapseElse": true
+                    "__collapseElse": true,
+                    "__collapse": true
                   },
                   "children": {
                     "true": [
@@ -193,6 +195,54 @@
                     "false": []
                   },
                   "id": "42c437e6-e769-47c0-bb8c-ff7f7ea8ca78"
+                },
+                {
+                  "command": "EVENT_IF",
+                  "args": {
+                    "condition": {
+                      "type": "eq",
+                      "valueA": {
+                        "type": "variable",
+                        "value": "L0"
+                      },
+                      "valueB": {
+                        "type": "number",
+                        "value": 2
+                      }
+                    },
+                    "__collapseElse": true
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "Purrrrrr...\nPurrrrrr...\nPurrrrrr..."
+                          ],
+                          "__section": "text",
+                          "avatarId": "",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30
+                        },
+                        "id": "8543f309-52e6-4604-bf7d-6eda921db705"
+                      }
+                    ],
+                    "false": []
+                  },
+                  "id": "6da8592f-8c8c-42a4-90b2-caea279fb455"
                 }
               ],
               "false": [

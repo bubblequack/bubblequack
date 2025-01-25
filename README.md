@@ -14,7 +14,7 @@ Thanks to [TradeByte](https://www.tradebyte.com) for providing the jam site.
 ▶ Play it online on [https://bubblequack.com](https://bubblequack.com)
 
 ### Downloads
-* [GameBoy ROM](https://bubblequack.com/bubblequack.gb)
+* [GameBoy Color ROM](https://bubblequack.com/bubblequack.gbc)
 * [Analogue Pocket ROM](https://bubblequack.com/bubblequack.pocket)
 
 ## License
