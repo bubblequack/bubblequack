@@ -22,6 +22,58 @@
         "condition": {
           "type": "eq",
           "valueA": {
+            "type": "variable",
+            "value": "2"
+          },
+          "valueB": {
+            "type": "false"
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Bubbly water!\nbubbly water!\nHahaha!"
+              ],
+              "__section": "text",
+              "avatarId": "4c353f31-a87c-45e7-8d62-437c3b75ecf5",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "bccfa9b7-0e34-4d9c-a210-b7ef860c1edc"
+          },
+          {
+            "command": "EVENT_STOP",
+            "args": {},
+            "id": "de5a7687-fe6a-4b04-b258-e2fbd1258001"
+          }
+        ],
+        "false": []
+      },
+      "id": "50564997-dda0-4223-99fb-f2ace8b06996"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
             "type": "bAND",
             "valueA": {
               "type": "variable",
