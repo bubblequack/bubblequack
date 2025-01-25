@@ -66,8 +66,8 @@
             "value": 0
           }
         },
-        "__collapseElse": true,
-        "__collapse": true
+        "__collapseElse": false,
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -105,7 +105,7 @@
           }
         },
         "__collapseElse": true,
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -135,8 +135,8 @@
             "value": 0
           }
         },
-        "__collapseElse": true,
-        "__collapse": true
+        "__collapseElse": false,
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -160,7 +160,7 @@
           "type": "direction",
           "value": "up"
         },
-        "__collapse": true
+        "__collapse": false
       },
       "id": "79b6c989-50f5-449c-b13c-b59152316d9f"
     },
@@ -172,7 +172,7 @@
         ],
         "override": true,
         "__scriptTabs": "press",
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -203,6 +203,6 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "autoFadeEventCollapse": true,
+  "autoFadeEventCollapse": false,
   "playerSpriteSheetId": "581d34d0-9591-4e6e-a609-1d94f203b0cd"
 }
