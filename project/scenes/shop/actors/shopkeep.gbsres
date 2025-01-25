@@ -4,7 +4,7 @@
   "name": "Shopkeep",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
+  "spriteSheetId": "22966190-a31c-4b48-bdfa-c5c974a3b939",
   "prefabId": "",
   "direction": "down",
   "moveSpeed": 1,
@@ -14,7 +14,7 @@
   "persistent": false,
   "collisionGroup": "",
   "prefabScriptOverrides": {},
-  "symbol": "actor_2",
+  "symbol": "actor_19",
   "script": [
     {
       "command": "EVENT_IF",
