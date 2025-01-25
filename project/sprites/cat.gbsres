@@ -3,16 +3,16 @@
   "id": "5700040a-ea55-44b2-84fa-42a4ffe74032",
   "name": "cat",
   "symbol": "sprite_cat",
-  "numFrames": 1,
+  "numFrames": 2,
   "filename": "cat.png",
-  "checksum": "c344a528ba4172f6f975a5cc29f0aa0691c13df9",
-  "width": 16,
+  "checksum": "acb6d916dfa6a0496d259c9e9aacb5f403aea431",
+  "width": 32,
   "height": 32,
   "states": [
     {
       "id": "090a6ebc-c4ca-4301-8642-86bdc27dd084",
       "name": "",
-      "animationType": "multi_movement",
+      "animationType": "fixed",
       "flipLeft": true,
       "animations": [
         {
@@ -65,6 +65,63 @@
                   "x": 8,
                   "y": 0,
                   "sliceX": 8,
+                  "sliceY": 16,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                }
+              ]
+            },
+            {
+              "id": "58e911b5-f56e-4734-99e3-421c31476ae1",
+              "tiles": [
+                {
+                  "id": "fb2733d1-8dd4-4896-84c9-03707475a0ce",
+                  "x": 0,
+                  "y": 16,
+                  "sliceX": 16,
+                  "sliceY": 0,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                },
+                {
+                  "id": "a59b3d06-cf8e-4446-b2ea-686653d694f4",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 16,
+                  "sliceY": 16,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                },
+                {
+                  "id": "c5165e52-2c81-4fdc-842c-aaac36058d7e",
+                  "x": 8,
+                  "y": 16,
+                  "sliceX": 24,
+                  "sliceY": 0,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                },
+                {
+                  "id": "64672869-7940-42ae-a779-a8f31fe62ba5",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 24,
                   "sliceY": 16,
                   "palette": 0,
                   "flipX": false,
@@ -249,7 +306,7 @@
       ]
     }
   ],
-  "numTiles": 4,
+  "numTiles": 6,
   "canvasWidth": 16,
   "canvasHeight": 32,
   "boundsX": 0,
