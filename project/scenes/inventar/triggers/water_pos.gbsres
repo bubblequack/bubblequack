@@ -1,0 +1,73 @@
+{
+  "_resourceType": "trigger",
+  "id": "f15d60e7-edf4-4f70-a716-81bbc2a288ca",
+  "name": "water pos",
+  "prefabId": "",
+  "x": 1,
+  "y": 4,
+  "symbol": "trigger_3",
+  "prefabScriptOverrides": {},
+  "width": 2,
+  "height": 1,
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "b"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SCENE_POP_STATE",
+            "args": {
+              "fadeSpeed": "2"
+            },
+            "id": "9d53f1c5-2cb5-4410-baa3-8a5755c3c302"
+          },
+          {
+            "command": "EVENT_SCENE_RESET_STATE",
+            "args": {},
+            "id": "69272280-c851-42cc-a1f7-7bf1c5bf194f"
+          }
+        ]
+      },
+      "id": "009f72dd-5623-4ba0-80fa-d0596681f3ca"
+    },
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "right"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_SET_POSITION",
+            "args": {
+              "actorId": "$self$",
+              "x": {
+                "type": "number",
+                "value": 6
+              },
+              "y": {
+                "type": "number",
+                "value": 4
+              }
+            },
+            "id": "b2d9617d-777a-4e2a-85cc-5008be431fff"
+          }
+        ]
+      },
+      "id": "0546e86c-5027-4f33-bcc5-c0c7b1412cc8"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 1
+}

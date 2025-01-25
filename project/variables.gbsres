@@ -50,6 +50,11 @@
       "id": "9",
       "name": "found duckling grandma",
       "symbol": "var_found_duckling_grandma"
+    },
+    {
+      "id": "10",
+      "name": "inventory",
+      "symbol": "var_inventory"
     }
   ]
 }

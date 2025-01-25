@@ -1,0 +1,103 @@
+{
+  "_resourceType": "trigger",
+  "id": "0dad8a64-7dc7-4070-a99c-8d703a41182c",
+  "name": "bread pos",
+  "prefabId": "",
+  "x": 6,
+  "y": 4,
+  "symbol": "trigger_2",
+  "prefabScriptOverrides": {},
+  "width": 2,
+  "height": 1,
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "b"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SCENE_POP_STATE",
+            "args": {
+              "fadeSpeed": "2"
+            },
+            "id": "1a56cc34-7336-4538-8af5-f9f82e724c8d"
+          },
+          {
+            "command": "EVENT_SCENE_RESET_STATE",
+            "args": {},
+            "id": "922323f8-0dc2-44a3-b3d6-86ac6229a9ff"
+          }
+        ]
+      },
+      "id": "85aab18f-c7bf-4901-bc0f-36fde06b5dc0"
+    },
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "right"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_SET_POSITION",
+            "args": {
+              "actorId": "$self$",
+              "x": {
+                "type": "number",
+                "value": 10
+              },
+              "y": {
+                "type": "number",
+                "value": 4
+              }
+            },
+            "id": "32b3c425-3629-4d34-997c-2c73c22ce8f7"
+          }
+        ]
+      },
+      "id": "efae9308-d6a1-4569-a74c-cad3c6cfac7b"
+    },
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "left"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_SET_POSITION",
+            "args": {
+              "actorId": "$self$",
+              "x": {
+                "type": "number",
+                "value": 1
+              },
+              "y": {
+                "type": "number",
+                "value": 4
+              }
+            },
+            "id": "609a5aad-a01c-4435-823f-a8b139657a12"
+          }
+        ]
+      },
+      "id": "ced2141b-f889-4686-81bc-16405f0fd1e7"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 0
+}
