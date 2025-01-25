@@ -2,23 +2,24 @@
   "_resourceType": "scene",
   "id": "bfb41c03-64fc-4ba8-9f7b-f1273295c482",
   "_index": 3,
-  "name": "Inventar",
-  "backgroundId": "80ec5983-e322-4663-ad68-84c1b4a098aa",
-  "tilesetId": "",
-  "width": 20,
-  "height": 18,
   "type": "TOPDOWN",
-  "paletteIds": [
-    "8831726c-03f0-4905-bb34-505349331362",
-    null,
-    "8831726c-03f0-4905-bb34-505349331362"
-  ],
-  "spritePaletteIds": [],
-  "collisions": "00168+",
-  "autoFadeSpeed": 1,
+  "name": "Inventar",
   "symbol": "scene_4",
   "x": 856,
   "y": 496,
+  "width": 20,
+  "height": 18,
+  "backgroundId": "80ec5983-e322-4663-ad68-84c1b4a098aa",
+  "tilesetId": "",
+  "paletteIds": [
+    "8831726c-03f0-4905-bb34-505349331362",
+    "",
+    "8831726c-03f0-4905-bb34-505349331362"
+  ],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "autoFadeEventCollapse": false,
+  "playerSpriteSheetId": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
   "script": [
     {
       "command": "EVENT_TEXT",
@@ -205,6 +206,5 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "autoFadeEventCollapse": false,
-  "playerSpriteSheetId": "581d34d0-9591-4e6e-a609-1d94f203b0cd"
+  "collisions": "00168+"
 }
