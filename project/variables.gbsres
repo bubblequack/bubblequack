@@ -67,6 +67,11 @@
       "symbol": "var_bubble_loop"
     },
     {
+      "id": "13",
+      "name": "found duckling grass",
+      "symbol": "var_found_duckling_grass"
+    },
+    {
       "id": "5cc178f2-2992-458d-9542-c9e71aa1f9a1__L0",
       "name": "Local 0",
       "symbol": "var_local_0"
@@ -162,9 +167,9 @@
       "symbol": "var_local_18"
     },
     {
-      "id": "13",
-      "name": "found duckling grass",
-      "symbol": "var_found_duckling_grass"
+      "id": "14",
+      "name": "found duckling forest",
+      "symbol": "var_found_duckling_forest"
     }
   ]
 }

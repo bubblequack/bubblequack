@@ -1,0 +1,35 @@
+{
+  "_resourceType": "actor",
+  "id": "8cf6e297-e620-4b77-bfd9-0b326599e458",
+  "name": "Duckling Forest",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "59d1f5de-cd82-44d7-9954-e032fab9c36c",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_12",
+  "script": [],
+  "startScript": [
+    {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "469750d5-fd40-4b88-8818-b0e222144c26"
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 22,
+  "y": 59,
+  "_index": 11
+}

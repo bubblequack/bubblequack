@@ -1,0 +1,145 @@
+{
+  "_resourceType": "actor",
+  "id": "132d5721-21b0-4267-b89d-97e04226f97d",
+  "name": "Duckling forest",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "59d1f5de-cd82-44d7-9954-e032fab9c36c",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_11",
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "variable",
+          "value": "2"
+        },
+        "__collapseElse": false,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "The duckling is\nstill scared by\nthe bubbles."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "3566fb6b-9b5c-47fd-9c49-5b6a6bc51fa4"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "You have found a\nmissing duckling.",
+                "The duckling is\nwaiting outside\nof the forest."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "f61a027c-ab98-4cc0-9380-2f1ed018aab8"
+          },
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "$self$"
+            },
+            "id": "f2a28e90-0fb3-424d-a2bf-0bd19f90f277"
+          },
+          {
+            "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
+            "args": {
+              "actorId": "e3501404-c7d1-4cf6-b32e-fcefdbf52b26"
+            },
+            "id": "029d8c94-f0bc-4616-b963-13b73a4d4cc5"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "14",
+              "value": {
+                "type": "true"
+              }
+            },
+            "id": "fdeafc26-8870-4d09-89b1-b100b552d784"
+          }
+        ]
+      },
+      "id": "e8c27886-371e-444d-98da-4896d8c136f5"
+    }
+  ],
+  "startScript": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "variable",
+          "value": "14"
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "$self$"
+            },
+            "id": "8b4021cc-bea8-48c6-81ef-41d2b6120109"
+          }
+        ],
+        "false": []
+      },
+      "id": "f58994da-fdba-4c01-81fb-bd4a862303df"
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 22,
+  "y": 7,
+  "_index": 0
+}
