@@ -1,0 +1,56 @@
+{
+  "_resourceType": "trigger",
+  "id": "2d09bd91-25ab-4d75-888f-74365cc45fa9",
+  "name": "",
+  "prefabId": "",
+  "x": 2,
+  "y": 2,
+  "symbol": "trigger_9",
+  "prefabScriptOverrides": {},
+  "width": 2,
+  "height": 2,
+  "script": [
+    {
+      "command": "EVENT_VARIABLE_MATH",
+      "args": {
+        "vectorX": "0",
+        "operation": "add",
+        "other": "val",
+        "vectorY": "L0",
+        "value": 6,
+        "minValue": "0",
+        "maxValue": "32767",
+        "clamp": true
+      },
+      "id": "d016f94f-6216-4d49-b2c0-519daff21b10"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Walking through\nthe high grass\nyou found 6 gold.",
+          "You now have $00$\ngold left."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "0c13ec95-c4c8-4fc6-bd16-5022bfb82804"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 1
+}

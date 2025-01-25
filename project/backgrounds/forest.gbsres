@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "b3fc9ad6-c9d6-46ee-bbe8-189d214bf027",
+  "name": "forest",
+  "symbol": "bg_forest",
+  "width": 30,
+  "height": 30,
+  "imageWidth": 240,
+  "imageHeight": 240,
+  "filename": "forest.png",
+  "tileColors": ""
+}

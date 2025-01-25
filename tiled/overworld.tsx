@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tileset version="1.10" tiledversion="1.11.1" name="Overworld" tilewidth="64" tileheight="64" tilecount="15" columns="0">
+<tileset version="1.10" tiledversion="1.11.1" name="Overworld" tilewidth="64" tileheight="64" tilecount="16" columns="0">
  <grid orientation="orthogonal" width="1" height="1"/>
  <tile id="2">
   <image source="sprites/water_wave.png" width="16" height="16"/>
@@ -45,5 +45,8 @@
  </tile>
  <tile id="33">
   <image source="sprites/rock_1.png" width="16" height="16"/>
+ </tile>
+ <tile id="34">
+  <image source="sprites/duck_tracks.png" width="16" height="16"/>
  </tile>
 </tileset>
