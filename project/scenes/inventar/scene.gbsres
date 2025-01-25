@@ -100,15 +100,8 @@
         "condition": {
           "type": "eq",
           "valueA": {
-            "type": "bAND",
-            "valueA": {
-              "type": "variable",
-              "value": "10"
-            },
-            "valueB": {
-              "type": "number",
-              "value": 4
-            }
+            "type": "variable",
+            "value": "0"
           },
           "valueB": {
             "type": "number",
@@ -116,7 +109,7 @@
           }
         },
         "__collapseElse": true,
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "true": [
