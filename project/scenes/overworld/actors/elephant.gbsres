@@ -70,6 +70,48 @@
               }
             },
             "id": "161265c1-aa85-45e6-a039-9ac8bd3cd1f5"
+          },
+          {
+            "command": "EVENT_SET_TIMER_SCRIPT",
+            "args": {
+              "timer": 1,
+              "duration": 2,
+              "frames": 30,
+              "__scriptTabs": "end",
+              "__collapse": false,
+              "__comment": false
+            },
+            "children": {
+              "script": [
+                {
+                  "command": "EVENT_REPLACE_TILE_XY_SEQUENCE",
+                  "args": {
+                    "x": {
+                      "type": "number",
+                      "value": 40
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 40
+                    },
+                    "tilesetId": "7af77416-a2cb-44cf-81ca-26e4a0897060",
+                    "tileIndex": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "frames": {
+                      "type": "number",
+                      "value": 4
+                    },
+                    "variable": "6",
+                    "tileSize": "16px",
+                    "__collapse": false
+                  },
+                  "id": "95be7657-fc1c-4ab0-b75b-d3a77e5e9c33"
+                }
+              ]
+            },
+            "id": "55f10239-6106-4b90-8f61-83c0ed2a7c6a"
           }
         ],
         "false": [

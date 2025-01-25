@@ -171,46 +171,106 @@
       "id": "a23be861-3bc0-4dc4-813e-76fc9d12b055"
     },
     {
-      "command": "EVENT_SET_TIMER_SCRIPT",
+      "command": "EVENT_IF",
       "args": {
-        "timer": 1,
-        "duration": 0.5,
-        "frames": 30,
-        "__scriptTabs": "end",
-        "__collapse": false,
-        "__comment": false
+        "condition": {
+          "type": "variable",
+          "value": "2"
+        },
+        "__collapseElse": false,
+        "__collapse": true
       },
       "children": {
-        "script": [
+        "true": [
           {
-            "command": "EVENT_REPLACE_TILE_XY_SEQUENCE",
+            "command": "EVENT_SET_TIMER_SCRIPT",
             "args": {
-              "x": {
-                "type": "number",
-                "value": 40
-              },
-              "y": {
-                "type": "number",
-                "value": 40
-              },
-              "tilesetId": "7af77416-a2cb-44cf-81ca-26e4a0897060",
-              "tileIndex": {
-                "type": "number",
-                "value": 0
-              },
-              "frames": {
-                "type": "number",
-                "value": 4
-              },
-              "variable": "6",
-              "tileSize": "16px",
-              "__collapse": false
+              "timer": 1,
+              "duration": 0.5,
+              "frames": 30,
+              "__scriptTabs": "end",
+              "__collapse": true,
+              "__comment": false
             },
-            "id": "b6b84a78-0c33-47c3-93cb-d329863682dc"
+            "children": {
+              "script": [
+                {
+                  "command": "EVENT_REPLACE_TILE_XY_SEQUENCE",
+                  "args": {
+                    "x": {
+                      "type": "number",
+                      "value": 40
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 40
+                    },
+                    "tilesetId": "7af77416-a2cb-44cf-81ca-26e4a0897060",
+                    "tileIndex": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "frames": {
+                      "type": "number",
+                      "value": 4
+                    },
+                    "variable": "6",
+                    "tileSize": "16px",
+                    "__collapse": false
+                  },
+                  "id": "b6b84a78-0c33-47c3-93cb-d329863682dc"
+                }
+              ]
+            },
+            "id": "567f7eb0-17d6-4713-993e-69836bee94c4"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_SET_TIMER_SCRIPT",
+            "args": {
+              "timer": 1,
+              "duration": 2,
+              "frames": 30,
+              "__scriptTabs": "end",
+              "__collapse": false,
+              "__comment": false
+            },
+            "children": {
+              "script": [
+                {
+                  "command": "EVENT_REPLACE_TILE_XY_SEQUENCE",
+                  "args": {
+                    "x": {
+                      "type": "number",
+                      "value": 40
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 40
+                    },
+                    "tilesetId": "7af77416-a2cb-44cf-81ca-26e4a0897060",
+                    "tileIndex": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "frames": {
+                      "type": "number",
+                      "value": 4
+                    },
+                    "variable": "6",
+                    "tileSize": "16px",
+                    "__collapse": false
+                  },
+                  "id": "bab81b0e-1b5e-4be4-b15b-b59db83035c2"
+                }
+              ]
+            },
+            "id": "0f9e8811-e3b1-4157-a6a4-506b47c4d559"
           }
         ]
       },
-      "id": "567f7eb0-17d6-4713-993e-69836bee94c4"
+      "id": "c894b8a3-a47e-4149-97d6-587146f193ed"
     },
     {
       "command": "EVENT_SET_INPUT_SCRIPT",
