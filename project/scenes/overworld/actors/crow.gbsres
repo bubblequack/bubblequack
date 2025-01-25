@@ -86,93 +86,118 @@
       "children": {
         "true": [
           {
-            "command": "EVENT_TEXT",
+            "command": "EVENT_CHOICE",
             "args": {
-              "text": [
-                "It's dangerous\nout here and it\nis time to pay\nyour protection\nfee. Or else..."
-              ],
-              "__section": "text",
-              "avatarId": "e100338f-ae40-4e17-90f5-4603eb358b19",
-              "minHeight": 4,
-              "maxHeight": 7,
-              "textX": 1,
-              "textY": 1,
-              "textHeight": 5,
-              "position": "bottom",
-              "clearPrevious": true,
-              "showFrame": "true",
-              "speedIn": -1,
-              "speedOut": -1,
-              "closeWhen": "key",
-              "closeButton": "a",
-              "closeDelayTime": 0.5,
-              "closeDelayFrames": 30
+              "variable": "L0",
+              "trueText": "Extort",
+              "falseText": "Leave"
             },
-            "id": "04b6e145-9894-49e6-b3ee-bf391353bb08"
+            "id": "bd13815a-b5ac-49c7-82c4-95d8349294b5"
           },
           {
-            "command": "EVENT_TEXT",
+            "command": "EVENT_IF",
             "args": {
-              "text": [
-                "Oh my gosh,\nalready? OK, OK.\nHere is the\nmoney."
+              "condition": {
+                "type": "variable",
+                "value": "L0"
+              },
+              "__collapseElse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "It's dangerous\nout here and it\nis time to pay\nyour protection\nfee. Or else..."
+                    ],
+                    "__section": "text",
+                    "avatarId": "e100338f-ae40-4e17-90f5-4603eb358b19",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "04b6e145-9894-49e6-b3ee-bf391353bb08"
+                },
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "Oh my gosh,\nalready? OK, OK.\nHere is the\nmoney."
+                    ],
+                    "__section": "text",
+                    "avatarId": "9eb246d8-6b6d-4811-ae5f-d1f82ac5294a",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "2907234c-803e-4b6a-8056-8deb27cede60"
+                },
+                {
+                  "command": "EVENT_VARIABLE_MATH",
+                  "args": {
+                    "vectorX": "0",
+                    "operation": "add",
+                    "other": "val",
+                    "vectorY": "L0",
+                    "value": 3,
+                    "minValue": "0",
+                    "maxValue": "32767",
+                    "clamp": false
+                  },
+                  "id": "98139229-ef3a-40e4-82f6-a6dbeeea9dad"
+                },
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "You got 3 gold.\nYou have a total\nof $00$ gold."
+                    ],
+                    "__section": "text",
+                    "avatarId": "",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "0a23f934-ae29-4670-a031-21c542a275fe"
+                }
               ],
-              "__section": "text",
-              "avatarId": "9eb246d8-6b6d-4811-ae5f-d1f82ac5294a",
-              "minHeight": 4,
-              "maxHeight": 7,
-              "textX": 1,
-              "textY": 1,
-              "textHeight": 5,
-              "position": "bottom",
-              "clearPrevious": true,
-              "showFrame": "true",
-              "speedIn": -1,
-              "speedOut": -1,
-              "closeWhen": "key",
-              "closeButton": "a",
-              "closeDelayTime": 0.5,
-              "closeDelayFrames": 30
+              "false": []
             },
-            "id": "2907234c-803e-4b6a-8056-8deb27cede60"
-          },
-          {
-            "command": "EVENT_VARIABLE_MATH",
-            "args": {
-              "vectorX": "0",
-              "operation": "add",
-              "other": "val",
-              "vectorY": "L0",
-              "value": 3,
-              "minValue": "0",
-              "maxValue": "32767",
-              "clamp": false
-            },
-            "id": "98139229-ef3a-40e4-82f6-a6dbeeea9dad"
-          },
-          {
-            "command": "EVENT_TEXT",
-            "args": {
-              "text": [
-                "You got 3 gold.\nYou have a total\nof $00$ gold."
-              ],
-              "__section": "text",
-              "avatarId": "",
-              "minHeight": 4,
-              "maxHeight": 7,
-              "textX": 1,
-              "textY": 1,
-              "textHeight": 5,
-              "position": "bottom",
-              "clearPrevious": true,
-              "showFrame": "true",
-              "speedIn": -1,
-              "speedOut": -1,
-              "closeWhen": "key",
-              "closeButton": "a",
-              "closeDelayTime": 0.5,
-              "closeDelayFrames": 30
-            },
-            "id": "0a23f934-ae29-4670-a031-21c542a275fe"
+            "id": "112fde8f-4e95-4e1b-98b4-a2dba829d313"
           }
         ],
         "false": []
