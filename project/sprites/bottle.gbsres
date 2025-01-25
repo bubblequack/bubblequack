@@ -1,28 +1,28 @@
 {
   "_resourceType": "sprite",
-  "id": "546fb640-d6a1-4118-9d34-dc467ff72c0c",
-  "name": "gold_coins",
-  "symbol": "sprite_gold_coins",
+  "id": "c26226ef-1377-4fe6-8180-1dc82eecd56a",
+  "name": "bottle",
+  "symbol": "sprite_bottle",
   "numFrames": 1,
-  "filename": "gold_coins.png",
-  "checksum": "84e9b1e442a19f737f60d62bb5f1422c96ca91f4",
+  "filename": "bottle.png",
+  "checksum": "8f6aa68b1759935b2af37fd456743476334769e2",
   "width": 16,
   "height": 16,
   "states": [
     {
-      "id": "113b4f14-c499-4045-af94-cb969844ddf3",
+      "id": "ffc83b8e-e600-40a4-ad9a-56a246a94d53",
       "name": "",
       "animationType": "fixed",
       "flipLeft": false,
       "animations": [
         {
-          "id": "9ac3559b-417e-435a-a35e-67b7a2d0184c",
+          "id": "8fc02aee-d215-4799-a9c9-d64c65b66875",
           "frames": [
             {
-              "id": "687d9ba1-5ec9-4827-85e4-af1ee3350eee",
+              "id": "93c6cb61-b5ba-49a1-a352-e95797f74291",
               "tiles": [
                 {
-                  "id": "c5b2903c-df4d-42fa-a0cd-e0bb3ee54cc6",
+                  "id": "19b61292-3665-4811-b512-fb623d4515ba",
                   "x": 0,
                   "y": 0,
                   "sliceX": 0,
@@ -35,7 +35,7 @@
                   "priority": false
                 },
                 {
-                  "id": "e92d20a2-44f0-4054-98bd-dddba5f1abff",
+                  "id": "7aee68a2-be8a-41d4-8e6a-c05a913ec178",
                   "x": 8,
                   "y": 0,
                   "sliceX": 8,
@@ -52,64 +52,64 @@
           ]
         },
         {
-          "id": "b12d209d-a6aa-4f5b-bf13-84e6818d88c7",
+          "id": "218c2557-95dd-4794-9385-af00d47c7f49",
           "frames": [
             {
-              "id": "60e3a846-0bee-4aa5-93f8-9bbe981aef55",
+              "id": "f0366b5a-f09b-4c64-8a5f-34ed307ea9dd",
               "tiles": []
             }
           ]
         },
         {
-          "id": "3541d668-1798-46c3-b20e-083d8b93ae44",
+          "id": "3a148157-dddc-4535-af48-b4f52ec4f021",
           "frames": [
             {
-              "id": "f7ff2b8e-eac0-4e8c-90b2-d0b5166ec9f9",
+              "id": "d5f32565-e9ea-48f2-bf4a-2acfb2df6d32",
               "tiles": []
             }
           ]
         },
         {
-          "id": "c1786a87-17e8-4f0a-910b-37a69ea2a640",
+          "id": "ab068b28-db7d-4180-bbf8-53e513296dd1",
           "frames": [
             {
-              "id": "9def76d2-ceca-4ef0-b5c2-dde9bf35e557",
+              "id": "f75ffdec-088d-4d70-8ade-73b7bc2bde4a",
               "tiles": []
             }
           ]
         },
         {
-          "id": "594c0f82-42cc-4dd2-88a0-5dbc345dff47",
+          "id": "575a42ef-860a-43c1-9029-fb63115f88bb",
           "frames": [
             {
-              "id": "8c6406b8-97ac-4674-b432-81b348589dfb",
+              "id": "d5b01f7f-0ac3-4701-a7b7-7daa870fe53b",
               "tiles": []
             }
           ]
         },
         {
-          "id": "3531b5e6-bd42-4dcc-bf35-3a17425e2698",
+          "id": "f65ca7e5-17f4-46f1-a98b-506d4f124f24",
           "frames": [
             {
-              "id": "f9e7e898-5452-4346-8870-b7210dc5b929",
+              "id": "0f318341-0ce3-4e71-b671-799c8afa5ca1",
               "tiles": []
             }
           ]
         },
         {
-          "id": "4d938642-fc4f-4f6c-9c15-3182f3997080",
+          "id": "1f8fae61-2b0d-4cac-b12e-5357af4cc332",
           "frames": [
             {
-              "id": "77f1e881-40e3-4f3c-9eeb-a7c71236824e",
+              "id": "fbf210b1-eaed-40bf-8d56-15e0b8266dfd",
               "tiles": []
             }
           ]
         },
         {
-          "id": "d5effd41-2be8-412c-963a-99011c2599e0",
+          "id": "7bc59c15-c888-4ea1-92f4-113039fca3ee",
           "frames": [
             {
-              "id": "baa6879e-e38e-464d-bd64-5d92ea8cc5b9",
+              "id": "7ff6a678-f3f8-4af4-ab8b-8100fcc9aa90",
               "tiles": []
             }
           ]

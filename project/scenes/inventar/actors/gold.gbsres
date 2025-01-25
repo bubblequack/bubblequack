@@ -4,7 +4,7 @@
   "name": "gold",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
+  "spriteSheetId": "546fb640-d6a1-4118-9d34-dc467ff72c0c",
   "prefabId": "",
   "direction": "down",
   "moveSpeed": 1,
@@ -22,6 +22,6 @@
   "hit2Script": [],
   "hit3Script": [],
   "x": 12,
-  "y": 2,
+  "y": 3,
   "_index": 2
 }
