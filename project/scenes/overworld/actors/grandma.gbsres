@@ -4,7 +4,7 @@
   "name": "Grandma",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
+  "spriteSheetId": "325eae73-3acb-47bc-baa2-3393dc61834b",
   "prefabId": "",
   "direction": "right",
   "moveSpeed": 1,
@@ -14,7 +14,7 @@
   "persistent": false,
   "collisionGroup": "",
   "prefabScriptOverrides": {},
-  "symbol": "actor_6",
+  "symbol": "actor_7",
   "script": [
     {
       "command": "EVENT_IF",
@@ -145,5 +145,5 @@
   "hit3Script": [],
   "x": 24,
   "y": 58,
-  "_index": 6
+  "_index": 7
 }

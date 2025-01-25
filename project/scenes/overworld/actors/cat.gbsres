@@ -6,7 +6,7 @@
   "animate": false,
   "spriteSheetId": "5700040a-ea55-44b2-84fa-42a4ffe74032",
   "prefabId": "",
-  "direction": "down",
+  "direction": "right",
   "moveSpeed": 1,
   "animSpeed": 15,
   "paletteId": "",
@@ -14,7 +14,7 @@
   "persistent": false,
   "collisionGroup": "",
   "prefabScriptOverrides": {},
-  "symbol": "actor_7",
+  "symbol": "actor_8",
   "script": [
     {
       "command": "EVENT_IF",
@@ -238,5 +238,5 @@
   "hit3Script": [],
   "x": 13,
   "y": 51,
-  "_index": 7
+  "_index": 8
 }
