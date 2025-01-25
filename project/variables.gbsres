@@ -60,6 +60,101 @@
       "id": "11",
       "name": "first overworld load",
       "symbol": "var_first_overworld_load"
+    },
+    {
+      "id": "5cc178f2-2992-458d-9542-c9e71aa1f9a1__L0",
+      "name": "Local 0",
+      "symbol": "var_local_0"
+    },
+    {
+      "id": "053594d0-f4ec-4c56-be7a-e45cfb6cefee__L0",
+      "name": "Local 0",
+      "symbol": "var_local_1"
+    },
+    {
+      "id": "d110a8d2-ce04-448f-90c8-e7a64aade601__L0",
+      "name": "Local 0",
+      "symbol": "var_local_2"
+    },
+    {
+      "id": "24e2389c-82a0-4a1a-bb78-966aa7137c85__L0",
+      "name": "Local 0",
+      "symbol": "var_local_3"
+    },
+    {
+      "id": "3a62f50d-4b23-4712-bea0-6bbb052835a5__L0",
+      "name": "Local 0",
+      "symbol": "var_local_4"
+    },
+    {
+      "id": "79786911-c5bf-488c-8d00-0aacfd59eaa1__L0",
+      "name": "Local 0",
+      "symbol": "var_local_5"
+    },
+    {
+      "id": "850682ee-d161-46fa-b697-dd7bf2c2984b__L0",
+      "name": "Local 0",
+      "symbol": "var_local_6"
+    },
+    {
+      "id": "b3c9e0dc-c508-4eec-85d1-5e312ef42ab6__L0",
+      "name": "Local 0",
+      "symbol": "var_local_7"
+    },
+    {
+      "id": "c5eacca9-2a28-4d7e-a57e-59ffb6f72c78__L0",
+      "name": "Local 0",
+      "symbol": "var_local_8"
+    },
+    {
+      "id": "5b9cd75c-5934-4bb7-9426-ea65fb39637c__L0",
+      "name": "Local 0",
+      "symbol": "var_local_9"
+    },
+    {
+      "id": "7637f4c1-abd2-4493-a592-136388ea51a0__L0",
+      "name": "Local 0",
+      "symbol": "var_local_10"
+    },
+    {
+      "id": "4d49d287-f8d6-4344-8a7d-31f9b2a61663__L0",
+      "name": "Local 0",
+      "symbol": "var_local_11"
+    },
+    {
+      "id": "3ffc9210-a3bb-46ea-92cf-f1503ef65928__L0",
+      "name": "Local 0",
+      "symbol": "var_local_12"
+    },
+    {
+      "id": "d07fc1cf-7647-4428-9341-573a171bd64f__L0",
+      "name": "Local 0",
+      "symbol": "var_local_13"
+    },
+    {
+      "id": "36fb8af6-9fe5-4cd4-9601-e73b258f42b8__L0",
+      "name": "Local 0",
+      "symbol": "var_local_14"
+    },
+    {
+      "id": "2ca4af8d-30da-4427-b22e-e93bc6abac75__L0",
+      "name": "Local 0",
+      "symbol": "var_local_15"
+    },
+    {
+      "id": "ec29f84c-7ccd-4da8-8cfa-eaa1bfe0add1__L0",
+      "name": "Local 0",
+      "symbol": "var_local_16"
+    },
+    {
+      "id": "30f3076e-cf5c-4f74-b6fb-658d2cbd5ab7__L0",
+      "name": "Local 0",
+      "symbol": "var_local_17"
+    },
+    {
+      "id": "0a78b1ed-c8d6-426e-9f31-aa87c3d838f5__L0",
+      "name": "Local 0",
+      "symbol": "var_local_18"
     }
   ]
 }
