@@ -99,13 +99,6 @@
                     }
                   },
                   "id": "056ac51d-c142-4bbf-aacd-eb6bb24edea4"
-                },
-                {
-                  "command": "EVENT_ACTOR_HIDE",
-                  "args": {
-                    "actorId": "$self$"
-                  },
-                  "id": "550717e5-c4dd-481b-9b7d-f2426048eaf7"
                 }
               ]
             },
