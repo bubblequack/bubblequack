@@ -27,7 +27,7 @@
             "type": "bAND",
             "valueA": {
               "type": "variable",
-              "value": "L0"
+              "value": "10"
             },
             "valueB": {
               "type": "number",
@@ -65,7 +65,7 @@
             "type": "bAND",
             "valueA": {
               "type": "variable",
-              "value": "L0"
+              "value": "10"
             },
             "valueB": {
               "type": "number",
@@ -103,7 +103,7 @@
             "type": "bAND",
             "valueA": {
               "type": "variable",
-              "value": "L0"
+              "value": "10"
             },
             "valueB": {
               "type": "number",
@@ -116,7 +116,7 @@
           }
         },
         "__collapseElse": true,
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
