@@ -1,5 +1,7 @@
-build/
-cache/
+/build/
+/cache/
+/dist/
+/bubblequack-ggj2025.zip
 
 *.bak
 *.sav
