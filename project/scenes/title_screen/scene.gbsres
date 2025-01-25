@@ -26,14 +26,6 @@
   "y": 192,
   "script": [
     {
-      "command": "EVENT_MUSIC_PLAY",
-      "args": {
-        "musicId": "80c8047c-f561-48e3-83c9-f9eb77dfbdaf",
-        "__collapse": false
-      },
-      "id": "57843d05-4e50-4206-91f6-8c530ecbf36c"
-    },
-    {
       "command": "EVENT_ACTOR_DEACTIVATE",
       "args": {
         "actorId": "$self$",
