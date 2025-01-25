@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "e79cc33e-041c-41e5-9b21-782fd9070166",
+  "name": "water_troubled_tileset",
+  "symbol": "tileset_water_troubled_tile",
+  "width": 8,
+  "height": 2,
+  "imageWidth": 64,
+  "imageHeight": 16,
+  "filename": "water_troubled_tileset.png"
+}

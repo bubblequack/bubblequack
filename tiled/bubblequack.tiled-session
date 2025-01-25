@@ -1,5 +1,5 @@
 {
-    "activeFile": "forest.tmx",
+    "activeFile": "overworld.tmx",
     "expandedProjectPaths": [
         "."
     ],
@@ -14,10 +14,10 @@
         },
         "overworld.tmx": {
             "scale": 2.7297,
-            "selectedLayer": 2,
+            "selectedLayer": 0,
             "viewCenter": {
-                "x": 284.2803238451112,
-                "y": 392.7171484045866
+                "x": 294.1715206799282,
+                "y": 300.76565190313954
             }
         },
         "overworld.tsx": {
@@ -34,8 +34,8 @@
     ],
     "project": "bubblequack.tiled-project",
     "recentFiles": [
-        "overworld.tmx",
+        "forest.tmx",
         "overworld.tsx",
-        "forest.tmx"
+        "overworld.tmx"
     ]
 }
