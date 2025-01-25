@@ -8,8 +8,8 @@
     },
     {
       "id": "1",
-      "name": "found forest gold",
-      "symbol": "var_found_forest_gold"
+      "name": "Variable 11",
+      "symbol": "var_variable_11"
     },
     {
       "id": "2",
@@ -60,11 +60,6 @@
       "id": "11",
       "name": "first overworld load",
       "symbol": "var_first_overworld_load"
-    },
-    {
-      "id": "2d09bd91-25ab-4d75-888f-74365cc45fa9__L0",
-      "name": "Local 0",
-      "symbol": "var_local_0"
     }
   ]
 }
