@@ -3,6 +3,7 @@ cache/
 
 *.bak
 *.sav
+!assets/sounds/*.sav
 *.icloud
 
 user_settings.gbsres
