@@ -170,6 +170,21 @@
       "id": "14",
       "name": "found duckling forest",
       "symbol": "var_found_duckling_forest"
+    },
+    {
+      "id": "13",
+      "name": "found duckling grass",
+      "symbol": "var_found_duckling_grass"
+    },
+    {
+      "id": "15",
+      "name": "mouseTargetX",
+      "symbol": "var_mousetargetx"
+    },
+    {
+      "id": "16",
+      "name": "mouseTargetY",
+      "symbol": "var_mousetargety"
     }
   ]
 }
