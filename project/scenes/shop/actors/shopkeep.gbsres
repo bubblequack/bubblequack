@@ -212,19 +212,89 @@
                             }
                           },
                           "__collapseElse": true,
-                          "__collapse": false
+                          "__collapse": true
                         },
                         "children": {
                           "true": [
                             {
-                              "command": "EVENT_SET_VALUE",
+                              "command": "EVENT_IF",
                               "args": {
-                                "variable": "1",
-                                "value": {
-                                  "type": "true"
-                                }
+                                "condition": {
+                                  "type": "eq",
+                                  "valueA": {
+                                    "type": "bAND",
+                                    "valueA": {
+                                      "type": "variable",
+                                      "value": "10"
+                                    },
+                                    "valueB": {
+                                      "type": "number",
+                                      "value": 1
+                                    }
+                                  },
+                                  "valueB": {
+                                    "type": "number",
+                                    "value": 1
+                                  }
+                                },
+                                "__collapseElse": false,
+                                "__collapse": true
                               },
-                              "id": "5267018d-8851-49d5-b1e4-50d4366783de"
+                              "children": {
+                                "true": [
+                                  {
+                                    "command": "EVENT_TEXT",
+                                    "args": {
+                                      "text": [
+                                        "You already have\nthis item."
+                                      ],
+                                      "__section": "text",
+                                      "avatarId": "",
+                                      "minHeight": 4,
+                                      "maxHeight": 7,
+                                      "textX": 1,
+                                      "textY": 1,
+                                      "textHeight": 5,
+                                      "position": "bottom",
+                                      "clearPrevious": true,
+                                      "showFrame": "true",
+                                      "speedIn": -1,
+                                      "speedOut": -1,
+                                      "closeWhen": "key",
+                                      "closeButton": "a",
+                                      "closeDelayTime": 0.5,
+                                      "closeDelayFrames": 30
+                                    },
+                                    "id": "d0333bff-5168-4e0c-83c4-0bb38fbf9733"
+                                  },
+                                  {
+                                    "command": "EVENT_STOP",
+                                    "args": {},
+                                    "id": "00c352f6-cad2-4a48-b59d-0167e225c7b7"
+                                  }
+                                ],
+                                "false": [
+                                  {
+                                    "command": "EVENT_SET_VALUE",
+                                    "args": {
+                                      "variable": "10",
+                                      "value": {
+                                        "type": "add",
+                                        "valueA": {
+                                          "type": "variable",
+                                          "value": "10"
+                                        },
+                                        "valueB": {
+                                          "type": "number",
+                                          "value": 1
+                                        }
+                                      }
+                                    },
+                                    "id": "d7e3f75b-2ed3-43a2-869e-77e731d487e1"
+                                  }
+                                ]
+                              },
+                              "id": "535d508e-16a8-4e93-a32d-1516bef7e58a"
                             }
                           ],
                           "false": []
