@@ -39,10 +39,11 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Bubbly water!\nSo much bubbly \nwater!\nThank you!\n\n*Stops blowing \nbubbles*"
+                "Bubbly water!\nSo much bubbly \nwater!\nThank you!",
+                "*Stops blowing \nbubbles*"
               ],
               "__section": "text",
-              "avatarId": "",
+              "avatarId": "4c353f31-a87c-45e7-8d62-437c3b75ecf5",
               "minHeight": 4,
               "maxHeight": 7,
               "textX": 1,
@@ -76,10 +77,10 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "What the quack are\nyou doing? You're\ndisturbing my\nducklings!"
+                "What the quack\nare you doing?\nYou disturb my\nducklings!"
               ],
               "__section": "text",
-              "avatarId": "",
+              "avatarId": "e100338f-ae40-4e17-90f5-4603eb358b19",
               "minHeight": 4,
               "maxHeight": 7,
               "textX": 1,
@@ -101,10 +102,11 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "The water is so \nstale.\nI like it bubbly.\nEveryone likes it \nbubbly.\nBubbly water is \nthe best!"
+                "The water is so \nflat. I like it\nbubbly. Everyone\nlikes it bubbly.",
+                "Bubbly water is \nthe best!"
               ],
               "__section": "text",
-              "avatarId": "",
+              "avatarId": "4c353f31-a87c-45e7-8d62-437c3b75ecf5",
               "minHeight": 4,
               "maxHeight": 7,
               "textX": 1,
@@ -126,10 +128,11 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "I'm gonna get my\nduck gang and mess\nyou up!\n\nOr is\nthere another way?\n..."
+                "I'm gonna get my\nduck gang and\nmess you up!",
+                "Or is\nthere another\nway?..."
               ],
               "__section": "text",
-              "avatarId": "",
+              "avatarId": "e100338f-ae40-4e17-90f5-4603eb358b19",
               "minHeight": 4,
               "maxHeight": 7,
               "textX": 1,
