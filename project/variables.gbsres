@@ -55,6 +55,11 @@
       "id": "10",
       "name": "inventory",
       "symbol": "var_inventory"
+    },
+    {
+      "id": "11",
+      "name": "first overworld load",
+      "symbol": "var_first_overworld_load"
     }
   ]
 }
