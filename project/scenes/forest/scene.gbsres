@@ -15,7 +15,15 @@
   "symbol": "scene_6",
   "x": 1064,
   "y": 512,
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "5dc0c605-0c81-4c23-a0fc-73ed18f76dfd"
+      },
+      "id": "14a1c3fa-7f16-4563-83ed-7823f7e16ce1"
+    }
+  ],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],

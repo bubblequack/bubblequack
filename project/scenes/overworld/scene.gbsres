@@ -82,7 +82,7 @@
           "value": "9"
         },
         "__collapseElse": true,
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "true": [
@@ -180,7 +180,7 @@
           "value": "14"
         },
         "__collapseElse": true,
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "true": [
@@ -437,51 +437,13 @@
       "id": "c894b8a3-a47e-4149-97d6-587146f193ed"
     },
     {
-      "command": "EVENT_SET_INPUT_SCRIPT",
-      "args": {
-        "input": [
-          "select"
-        ],
-        "override": true,
-        "__scriptTabs": "press",
-        "__collapse": true
-      },
-      "children": {
-        "true": [
-          {
-            "command": "EVENT_SCENE_PUSH_STATE",
-            "args": {},
-            "id": "8dd67471-1880-46e3-b26d-56edc092ee0b"
-          },
-          {
-            "command": "EVENT_SWITCH_SCENE",
-            "args": {
-              "sceneId": "bfb41c03-64fc-4ba8-9f7b-f1273295c482",
-              "x": {
-                "type": "number",
-                "value": 2
-              },
-              "y": {
-                "type": "number",
-                "value": 6
-              },
-              "direction": "",
-              "fadeSpeed": "2"
-            },
-            "id": "7bb6bb84-2ddd-4935-8869-c5a4f949d419"
-          }
-        ]
-      },
-      "id": "cf248b35-30e3-4d06-826a-4cc24a793f15"
-    },
-    {
       "command": "EVENT_SET_TIMER_SCRIPT",
       "args": {
         "timer": 2,
         "duration": 0.1,
         "frames": 30,
         "__scriptTabs": "end",
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "script": [
@@ -601,58 +563,11 @@
       "id": "6e2f8eed-95af-4edc-958e-134fec2c27c4"
     },
     {
-      "command": "EVENT_SET_INPUT_SCRIPT",
+      "command": "EVENT_CALL_CUSTOM_EVENT",
       "args": {
-        "input": [
-          "start"
-        ],
-        "override": true,
-        "__scriptTabs": "press",
-        "__collapse": true
+        "customEventId": "5dc0c605-0c81-4c23-a0fc-73ed18f76dfd"
       },
-      "children": {
-        "true": [
-          {
-            "command": "EVENT_SAVE_DATA",
-            "args": {
-              "saveSlot": 0,
-              "__scriptTabs": "save"
-            },
-            "children": {
-              "true": [
-                {
-                  "command": "EVENT_TEXT",
-                  "args": {
-                    "text": [
-                      "Game saved"
-                    ],
-                    "__section": "text",
-                    "avatarId": "",
-                    "minHeight": 4,
-                    "maxHeight": 7,
-                    "textX": 1,
-                    "textY": 1,
-                    "textHeight": 5,
-                    "position": "bottom",
-                    "clearPrevious": true,
-                    "showFrame": "true",
-                    "speedIn": -1,
-                    "speedOut": -1,
-                    "closeWhen": "key",
-                    "closeButton": "a",
-                    "closeDelayTime": 0.5,
-                    "closeDelayFrames": 30
-                  },
-                  "id": "cc599c4a-5c19-400e-9b92-6a8ecc9ec977"
-                }
-              ],
-              "load": []
-            },
-            "id": "20f8788a-d4e5-4e1e-b509-e8847fc612e1"
-          }
-        ]
-      },
-      "id": "dd29a35e-1c2c-46c8-831e-9f7ceebeb2a7"
+      "id": "7dcdd887-c8d1-4f1e-b6b6-fb95ab9a72fe"
     }
   ],
   "playerHit1Script": [],

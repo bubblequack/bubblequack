@@ -17,6 +17,13 @@
   "y": 160,
   "script": [
     {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "5dc0c605-0c81-4c23-a0fc-73ed18f76dfd"
+      },
+      "id": "12b2b488-9883-4661-a2e9-8d43f7dc4ab8"
+    },
+    {
       "command": "EVENT_MUSIC_PLAY",
       "args": {
         "musicId": "3223fadb-d5db-4fdc-aa6f-4784824a46bc"
