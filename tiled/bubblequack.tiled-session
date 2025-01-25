@@ -3,8 +3,9 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "",
+    "activeFile": "overworld.tmx",
     "expandedProjectPaths": [
+        "."
     ],
     "file.lastUsedOpenFilter": "All Files (*)",
     "fileStates": {
@@ -25,18 +26,19 @@
             "scaleInEditor": 1
         },
         "overworld.tmx": {
-            "scale": 0.8767708333333334,
-            "selectedLayer": 0,
+            "scale": 3.148,
+            "selectedLayer": 2,
             "viewCenter": {
-                "x": 480.17108233337296,
-                "y": 480.17108233337285
+                "x": 47.966963151207125,
+                "y": 355.30495552731895
             }
         },
         "overworld.tmx#Overworld": {
             "dynamicWrapping": false
         },
         "overworld.tsx": {
-            "dynamicWrapping": true
+            "dynamicWrapping": true,
+            "scaleInDock": 1
         }
     },
     "last.imagePath": "/home/markus/git/bubblequack/bubblequack/tiled/sprites",
@@ -46,9 +48,11 @@
     "map.tileWidth": 16,
     "map.width": 60,
     "openFiles": [
+        "overworld.tmx"
     ],
     "project": "bubblequack.tiled-project",
     "recentFiles": [
+        "overworld.tmx",
         "Overworld.tsx",
         "Overworld.tmx"
     ],
