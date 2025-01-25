@@ -232,7 +232,7 @@
                                       "operator": "<=",
                                       "distance": {
                                         "type": "number",
-                                        "value": 43
+                                        "value": 35
                                       },
                                       "otherActorId": "$self$",
                                       "__collapseElse": true,
@@ -251,7 +251,7 @@
                                             },
                                             "y": {
                                               "type": "number",
-                                              "value": 50
+                                              "value": 45
                                             },
                                             "moveType": "horizontal",
                                             "useCollisions": false
