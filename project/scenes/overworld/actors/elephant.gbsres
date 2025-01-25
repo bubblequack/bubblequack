@@ -39,7 +39,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Bubbly water!\nSo much bubbly water!\nThank you!\n\n*Stops blowing bubbles*"
+                "Bubbly water!\nSo much bubbly \nwater!\nThank you!\n\n*Stops blowing \nbubbles*"
               ],
               "__section": "text",
               "avatarId": "",
@@ -101,7 +101,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "The water is so stale.\nI like it bubbly.\nEveryone likes it bubbly.\nBubbly water is the best!"
+                "The water is so \nstale.\nI like it bubbly.\nEveryone likes it \nbubbly.\nBubbly water is \nthe best!"
               ],
               "__section": "text",
               "avatarId": "",
@@ -126,7 +126,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "I'm gonna get my\nduck gang and mess\nyou up!\n\nOr is there another way?\n..."
+                "I'm gonna get my\nduck gang and mess\nyou up!\n\nOr is\nthere another way?\n..."
               ],
               "__section": "text",
               "avatarId": "",
