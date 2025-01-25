@@ -22,8 +22,15 @@
         "condition": {
           "type": "eq",
           "valueA": {
-            "type": "variable",
-            "value": "1"
+            "type": "bAND",
+            "valueA": {
+              "type": "variable",
+              "value": "10"
+            },
+            "valueB": {
+              "type": "number",
+              "value": 1
+            }
           },
           "valueB": {
             "type": "number",
@@ -112,6 +119,24 @@
               ]
             },
             "id": "55f10239-6106-4b90-8f61-83c0ed2a7c6a"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "10",
+              "value": {
+                "type": "sub",
+                "valueA": {
+                  "type": "variable",
+                  "value": "10"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 1
+                }
+              }
+            },
+            "id": "f84238c7-dec3-40bd-9433-c91fad83cbb1"
           }
         ],
         "false": [
