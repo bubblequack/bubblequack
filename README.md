@@ -7,13 +7,16 @@ This game was made for the [Global Game Jam 2025](https://globalgamejam.org/game
 
 Thanks to [TradeByte](https://www.tradebyte.com) for providing the jam site.
 
+## Play
+### Web
 ▶ Play it online on [https://bubblequack.com](https://bubblequack.com)
 
-## Downloads
+### Downloads
 * [GameBoy ROM](https://bubblequack.com/bubblequack.gb)
 * [Analogue Pocket ROM](https://bubblequack.com/bubblequack.pocket)
 
+## License
 [![License](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png)](https://creativecommons.org/licenses/by-nc-sa/4.0)
 
-# Credits
+## Credits
 see [CREDITS.md](CREDITS.md)
