@@ -45,6 +45,11 @@
       "id": "8",
       "name": "found grandma",
       "symbol": "var_found_grandma"
+    },
+    {
+      "id": "9",
+      "name": "found duckling grandma",
+      "symbol": "var_found_duckling_grandma"
     }
   ]
 }

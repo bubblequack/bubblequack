@@ -78,6 +78,16 @@
             "children": {
               "true": [
                 {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "2",
+                    "value": {
+                      "type": "true"
+                    }
+                  },
+                  "id": "70558bdb-ba39-4e34-af7a-e86f4540902c"
+                },
+                {
                   "id": "beff8ff2-f36f-4b0d-a7c9-dc54f3a421bf",
                   "command": "EVENT_SWITCH_SCENE",
                   "args": {
@@ -130,16 +140,6 @@
           }
         ]
       }
-    },
-    {
-      "command": "EVENT_SET_VALUE",
-      "args": {
-        "variable": "2",
-        "value": {
-          "type": "true"
-        }
-      },
-      "id": "70558bdb-ba39-4e34-af7a-e86f4540902c"
     }
   ],
   "playerHit1Script": [],
