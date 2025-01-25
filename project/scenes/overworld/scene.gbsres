@@ -76,11 +76,11 @@
             "args": {
               "x": {
                 "type": "number",
-                "value": 60
+                "value": 40
               },
               "y": {
                 "type": "number",
-                "value": 60
+                "value": 40
               },
               "tilesetId": "7af77416-a2cb-44cf-81ca-26e4a0897060",
               "tileIndex": {
