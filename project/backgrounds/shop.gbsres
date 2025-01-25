@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "76493821-0ec7-4aab-b485-baf9b070bc6f",
+  "name": "shop",
+  "symbol": "bg_shop",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "shop.png",
+  "tileColors": ""
+}
