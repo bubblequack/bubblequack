@@ -10,7 +10,7 @@
   "type": "TOPDOWN",
   "paletteIds": [],
   "spritePaletteIds": [],
-  "collisions": "0f!003a+0f2+006+20!0f4+30!002e+0f2+005+20!0f6+30!002d+0f2+005+0f8+002d+0f2+005+0f8+002d+0f2+005+0f8+002d+0f2+005+0f8+002d+0f2+005+0f3+002+0f3+002d+0f2+0028+0f2+0010+0f2+0027+0f4+00f+0f2+0026+0f6+00e+0f2+0025+0f8+00d+0f2+0022+0fb+00d+0f2+0021+0fb+00e+0f2+0021+0f8+0011+0f2+0021+0f8+0011+0f2+0020+0fc+00e+0f2+001f+0fd+00e+0f2+001f+0fc+00f+0f2+0020+0fa+0010+0f2+0021+0f8+0011+0f2+0022+0f7+0011+0f2+0025+0f4+0011+0f2+0026+0f2+0012+0f2+003a+0f2+003a+0f2+003a+0f2+003a+0f2+003a+0f2+003a+0f2+003a+0f2+003a+0f2+00c+0f2+002c+0f2+00b+0f4+002b+0f2+008+0f7+002b+0f2+007+0f8+002b+0f2+007+0f8+002b+0f2+008+0f6+002c+0f2+003a+0f2+003a+0f2+003a+0f2+003a+0f2+003a+0f2+003a+0f2+003a+0f2+003a+0f2+001a+0ff+0011+0f2+0019+0f10+0011+0f2+0018+0f13+00f+0f2+0017+0f14+00f+0f2+0017+0f14+00f+0f2+0017+0f13+0010+0f2+0014+0f15+0011+0f2+0013+0f15+0012+0f2+0010+0f10+002+0f3+0015+0f2+00f+0fe+001d+0f2+00f+0fe+001d+0f2+00f+0fe+001d+0f2+00f+0fe+001d+0f3d+",
+  "collisions": "0f!003a+0f2+006+20!0f4+30!002e+0f2+005+20!0f6+30!002d+0f2+005+0f8+002d+0f2+005+0f8+002d+0f2+005+0f8+002d+0f2+005+0f8+002d+0f2+005+0f3+002+0f3+002d+0f2+0028+0f2+0010+0f2+0027+0f4+00f+0f2+0026+0f6+00e+0f2+0025+0f8+00d+0f2+0022+0fb+00d+0f2+0021+0f8+0011+0f2+0021+0f8+0011+0f2+0021+0f8+0011+0f2+0020+0fc+00e+0f2+001f+0fc+00f+0f2+001f+0fc+00f+0f2+0021+0f8+0011+0f2+0021+0f8+0011+0f2+0025+0f4+0011+0f2+0025+0f4+0011+0f2+003a+0f2+003a+0f2+003a+0f2+003a+0f2+003a+0f2+003a+0f2+003a+0f2+003a+0f2+003a+0f2+00c+0f2+002c+0f2+00b+0f4+002b+0f2+008+0f7+002b+0f2+007+0f8+002b+0f2+007+0f8+002b+0f2+008+0f6+002c+0f2+003a+0f2+003a+0f2+003a+0f2+003a+0f2+003a+0f2+003a+0f2+003a+0f2+003a+0f2+001a+0ff+0011+0f2+0019+0f10+0011+0f2+0018+0f13+00f+0f2+0017+0f14+00f+0f2+0017+0f14+00f+0f2+0017+0f13+0010+0f2+0014+0f15+0011+0f2+0013+0f15+0012+0f2+0010+0f10+002+0f3+0015+0f2+00f+0fe+001d+0f2+00f+0fe+001d+0f2+00f+0fe+001d+0f2+00f+0fe+001d+0f3d+",
   "autoFadeSpeed": 1,
   "symbol": "scene_2",
   "x": 292.2739726027397,
@@ -94,6 +94,13 @@
             "id": "21f8779d-37a0-42e5-aa91-1a092d6771c4"
           },
           {
+            "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
+            "args": {
+              "actorId": "a0f3ff28-56ee-4e67-b228-acfbafdfcc04"
+            },
+            "id": "2860549f-9009-4ac7-8c3e-7330e6924814"
+          },
+          {
             "command": "EVENT_ACTOR_SET_POSITION",
             "args": {
               "actorId": "a0f3ff28-56ee-4e67-b228-acfbafdfcc04",
@@ -115,6 +122,55 @@
         "false": []
       },
       "id": "93bbba8b-57b5-4a67-a7e4-330b87811dd1"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "variable",
+          "value": "13"
+        },
+        "__collapseElse": true,
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_ACTIVATE",
+            "args": {
+              "actorId": "e3501404-c7d1-4cf6-b32e-fcefdbf52b26"
+            },
+            "id": "24b5cd83-5d47-4248-86f7-c913a41844a6"
+          },
+          {
+            "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
+            "args": {
+              "actorId": "e3501404-c7d1-4cf6-b32e-fcefdbf52b26"
+            },
+            "id": "068f65f9-8218-4dda-a5b2-33eb40d06fbf"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_POSITION",
+            "args": {
+              "actorId": "e3501404-c7d1-4cf6-b32e-fcefdbf52b26",
+              "x": {
+                "type": "property",
+                "target": "player",
+                "property": "xpos"
+              },
+              "y": {
+                "type": "property",
+                "target": "player",
+                "property": "ypos"
+              },
+              "__collapse": false
+            },
+            "id": "1e45b63f-4362-4011-a08c-d00b97323cd4"
+          }
+        ],
+        "false": []
+      },
+      "id": "962f978b-271b-4b31-8a96-382916c6650d"
     },
     {
       "command": "EVENT_IF",
@@ -369,7 +425,7 @@
         "duration": 0.1,
         "frames": 30,
         "__scriptTabs": "end",
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "script": [
@@ -399,8 +455,8 @@
                       "target": "player",
                       "property": "ypos"
                     },
-                    "moveType": "horizontal",
-                    "useCollisions": true,
+                    "moveType": "diagonal",
+                    "useCollisions": false,
                     "__collapse": false
                   },
                   "id": "d0603be9-75b4-4996-8b22-4165d13754db"
@@ -409,6 +465,43 @@
               "false": []
             },
             "id": "f2fc5c49-083e-4ff2-b45a-a9d86df67bb8"
+          },
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "variable",
+                "value": "13"
+              },
+              "__collapseElse": true,
+              "__collapse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_ACTOR_MOVE_TO",
+                  "args": {
+                    "actorId": "e3501404-c7d1-4cf6-b32e-fcefdbf52b26",
+                    "x": {
+                      "type": "property",
+                      "target": "player",
+                      "property": "xpos"
+                    },
+                    "y": {
+                      "type": "property",
+                      "target": "player",
+                      "property": "ypos"
+                    },
+                    "moveType": "diagonal",
+                    "useCollisions": false,
+                    "__collapse": false
+                  },
+                  "id": "e14cd76f-b72a-4965-bc7f-dfd09e3c8d41"
+                }
+              ],
+              "false": []
+            },
+            "id": "be485a55-bb8c-40d0-b325-149cea376941"
           }
         ]
       },

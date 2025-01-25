@@ -23,7 +23,8 @@
           "type": "variable",
           "value": "7"
         },
-        "__collapseElse": false
+        "__collapseElse": false,
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -34,7 +35,8 @@
                 "type": "variable",
                 "value": "2"
               },
-              "__collapseElse": false
+              "__collapseElse": false,
+              "__collapse": false
             },
             "children": {
               "true": [
@@ -89,6 +91,13 @@
                     "closeDelayFrames": 30
                   },
                   "id": "434a2e0f-aa69-4abc-8a5a-b9e1975b76f4"
+                },
+                {
+                  "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
+                  "args": {
+                    "actorId": "a0f3ff28-56ee-4e67-b228-acfbafdfcc04"
+                  },
+                  "id": "6635e0e0-5490-4c6c-b3e0-09c319a19101"
                 },
                 {
                   "command": "EVENT_SET_VALUE",
