@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "ded7051d-de0c-4e5c-b3e8-8a5fb5ec4a65",
+  "_index": 6,
+  "name": "Black Screen",
+  "backgroundId": "cbaba2e2-8740-4a69-92de-d74cd8a4a145",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "00168+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_7",
+  "x": 696,
+  "y": 720,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}
