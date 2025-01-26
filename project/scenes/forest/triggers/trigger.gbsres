@@ -11,6 +11,11 @@
   "height": 1,
   "script": [
     {
+      "command": "EVENT_MUSIC_STOP",
+      "args": {},
+      "id": "1823acaa-e69c-407f-b9bf-babb139c9efa"
+    },
+    {
       "command": "EVENT_SWITCH_SCENE",
       "args": {
         "sceneId": "d9595a2e-a9eb-4610-8939-fd2abc8912f3",
