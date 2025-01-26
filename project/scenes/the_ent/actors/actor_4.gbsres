@@ -6,7 +6,7 @@
   "animate": false,
   "spriteSheetId": "59d1f5de-cd82-44d7-9954-e032fab9c36c",
   "prefabId": "",
-  "direction": "down",
+  "direction": "left",
   "moveSpeed": 1,
   "animSpeed": 15,
   "paletteId": "",
@@ -16,7 +16,17 @@
   "prefabScriptOverrides": {},
   "symbol": "actor_28",
   "script": [],
-  "startScript": [],
+  "startScript": [
+    {
+      "command": "EVENT_ACTOR_SET_STATE",
+      "args": {
+        "actorId": "$self$",
+        "spriteStateId": "swimming",
+        "loopAnim": true
+      },
+      "id": "4042d0c4-a71f-43cd-a8e5-35797222cd2b"
+    }
+  ],
   "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],
