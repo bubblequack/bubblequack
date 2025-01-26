@@ -1,7 +1,7 @@
 {
   "_resourceType": "trigger",
   "id": "0dad8a64-7dc7-4070-a99c-8d703a41182c",
-  "name": "bread pos",
+  "name": "lantern pos",
   "prefabId": "",
   "x": 7,
   "y": 6,
@@ -112,11 +112,67 @@
       "children": {
         "true": [
           {
-            "command": "EVENT_DIALOGUE_CLOSE_NONMODAL",
+            "command": "EVENT_IF",
             "args": {
-              "speed": 0
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "bAND",
+                  "valueA": {
+                    "type": "variable",
+                    "value": "10"
+                  },
+                  "valueB": {
+                    "type": "number",
+                    "value": 4
+                  }
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 0
+                }
+              },
+              "__collapseElse": false
             },
-            "id": "96903220-e74b-41b7-9e0c-f413f5b5aad8"
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_DIALOGUE_CLOSE_NONMODAL",
+                  "args": {
+                    "speed": 0
+                  },
+                  "id": "96903220-e74b-41b7-9e0c-f413f5b5aad8"
+                }
+              ],
+              "false": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "An oil lantern.\nIt's filled with\nand ready to use!"
+                    ],
+                    "__section": "text",
+                    "avatarId": "",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "b24a3d1a-5b75-408c-a3d3-4b3dfaa185c2"
+                }
+              ]
+            },
+            "id": "9bb48354-9264-4025-9674-f76195fa0c3c"
           }
         ],
         "false": [
@@ -124,7 +180,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Bread.\nIrresitably crusty!"
+                "A empty lantern.\nIt's missing oil."
               ],
               "__section": "behavior",
               "avatarId": "",

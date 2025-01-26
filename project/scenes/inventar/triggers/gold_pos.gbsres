@@ -88,7 +88,7 @@
               "text": [
                 "You have $00$ coins."
               ],
-              "__section": "behavior",
+              "__section": "text",
               "avatarId": "",
               "minHeight": 4,
               "maxHeight": 7,
