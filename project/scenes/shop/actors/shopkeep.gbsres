@@ -32,7 +32,7 @@
         "cancelOnB": true,
         "layout": "dialogue",
         "cancelOnLastOption": true,
-        "__collapse": true
+        "__collapse": false
       },
       "id": "ec221bc4-321f-4935-8623-4c903eff3a31"
     },
@@ -141,7 +141,7 @@
                       }
                     },
                     "__collapseElse": true,
-                    "__collapse": true
+                    "__collapse": false
                   },
                   "children": {
                     "true": [
