@@ -1,0 +1,85 @@
+{
+  "_resourceType": "trigger",
+  "id": "4260fd34-dfc1-4255-893c-ee85acdc2639",
+  "name": "",
+  "prefabId": "",
+  "x": 22,
+  "y": 16,
+  "symbol": "trigger_10",
+  "prefabScriptOverrides": {},
+  "width": 2,
+  "height": 3,
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "not",
+          "value": {
+            "type": "variable",
+            "value": "18"
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_VARIABLE_MATH",
+            "args": {
+              "vectorX": "0",
+              "operation": "add",
+              "other": "val",
+              "vectorY": "L0",
+              "value": 6,
+              "minValue": "0",
+              "maxValue": "32767",
+              "clamp": true
+            },
+            "id": "f98237c2-777d-409c-b91b-8e40884caa14"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "At the end of the\ncave you've found\n6 gold in the\nrubble.",
+                "You now have $00$\ngold."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "061691f3-4c02-42d1-9d22-e0fb26750950"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "18",
+              "value": {
+                "type": "true"
+              }
+            },
+            "id": "fc474677-da7d-4fdb-bc9f-2d150ecb583c"
+          }
+        ],
+        "false": []
+      },
+      "id": "90e041b2-9af0-4bb8-b7e6-7fd0046efce1"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 1
+}
