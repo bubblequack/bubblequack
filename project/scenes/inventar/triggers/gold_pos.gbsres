@@ -45,7 +45,8 @@
       "args": {
         "input": [
           "up",
-          "down"
+          "down",
+          "right"
         ],
         "override": true,
         "__scriptTabs": "press"
