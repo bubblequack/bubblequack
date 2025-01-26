@@ -5,42 +5,20 @@
   "prefabScriptOverrides": {},
   "script": [
     {
-      "command": "EVENT_ACTOR_SET_STATE",
+      "command": "EVENT_INC_VALUE",
       "args": {
-        "actorId": "$self$",
-        "spriteStateId": "swimming",
-        "loopAnim": true
+        "variable": "19"
       },
-      "id": "5f1b8a5d-c9d3-4288-8aea-232d6206cf53",
-      "children": {}
-    },
-    {
-      "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
-      "args": {
-        "actorId": "$self$",
-        "speed": 2
-      },
-      "id": "c15d477b-53d8-4771-8f7f-106ba1e90681",
-      "children": {}
+      "id": "0f4fdd65-45a4-4128-a690-6e12f347d2c0"
     }
   ],
   "leaveScript": [
     {
-      "command": "EVENT_ACTOR_SET_STATE",
+      "command": "EVENT_DEC_VALUE",
       "args": {
-        "actorId": "$self$",
-        "spriteStateId": "",
-        "loopAnim": true
+        "variable": "19"
       },
-      "id": "c1179927-f4e9-4ff3-b067-ce91a06f4d6e"
-    },
-    {
-      "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
-      "args": {
-        "actorId": "$self$",
-        "speed": 1
-      },
-      "id": "2d1ad5b9-468f-420f-837b-93aa7f7667b7"
+      "id": "3e7d20c2-de8b-4fe1-88b6-0b5d71fce962"
     }
   ]
 }

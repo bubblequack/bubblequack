@@ -30,7 +30,9 @@
         "true": [
           {
             "command": "EVENT_STOP",
-            "args": {},
+            "args": {
+              "__collapse": true
+            },
             "id": "5952ffc3-0aef-4d16-93b1-a094a162d6df"
           }
         ],

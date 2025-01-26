@@ -1,0 +1,75 @@
+{
+  "_resourceType": "script",
+  "id": "7f0f8ac8-3cb0-4856-a221-2e70d50739d9",
+  "name": "Swimming State Overworld",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_2",
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "19"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 0
+          }
+        },
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_SET_STATE",
+            "args": {
+              "actorId": "$self$",
+              "spriteStateId": "",
+              "loopAnim": true,
+              "__collapse": true
+            },
+            "id": "f83a2468-16a0-4009-9d4f-e6246adc90e9"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+            "args": {
+              "actorId": "$self$",
+              "speed": 1,
+              "__collapse": true
+            },
+            "id": "52872919-ae37-4fc1-bfcb-4ec56f37a1b0"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_ACTOR_SET_STATE",
+            "args": {
+              "actorId": "$self$",
+              "spriteStateId": "swimming",
+              "loopAnim": true,
+              "__collapse": true
+            },
+            "id": "f52e3336-0d25-4f1b-98e1-f6cd60b03cb9",
+            "children": {}
+          },
+          {
+            "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+            "args": {
+              "actorId": "$self$",
+              "speed": 1,
+              "__collapse": false
+            },
+            "id": "7a11055c-3933-4bd7-9597-37c9f22e087a",
+            "children": {}
+          }
+        ]
+      },
+      "id": "7f8f0b92-484b-45da-ad28-3c6448acae09"
+    }
+  ]
+}
