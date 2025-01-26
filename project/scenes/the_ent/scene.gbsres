@@ -29,7 +29,7 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Quackulation!\nYou found all your\nducklings in $20$\nseconds!\nThat's pretty\nducking fast!"
+          "Conquackulation!\nYou found all your\nducklings in $globalTime\nseconds!"
         ],
         "__section": "text",
         "avatarId": "",
@@ -49,6 +49,31 @@
         "closeDelayFrames": 30
       },
       "id": "a89074cb-5528-4ac1-a2b2-a93a7a82e3be"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "That's pretty\nducking fast!"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "af87388e-8d2c-4d40-9681-71137a3c9e66"
     }
   ],
   "playerHit1Script": [],
