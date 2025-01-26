@@ -1,0 +1,46 @@
+{
+  "_resourceType": "triggerPrefab",
+  "id": "0e4818f3-1d46-4a39-88fc-966b15320810",
+  "name": "Swim",
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_ACTOR_SET_STATE",
+      "args": {
+        "actorId": "$self$",
+        "spriteStateId": "swimming",
+        "loopAnim": true
+      },
+      "id": "5f1b8a5d-c9d3-4288-8aea-232d6206cf53",
+      "children": {}
+    },
+    {
+      "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+      "args": {
+        "actorId": "$self$",
+        "speed": 2
+      },
+      "id": "c15d477b-53d8-4771-8f7f-106ba1e90681",
+      "children": {}
+    }
+  ],
+  "leaveScript": [
+    {
+      "command": "EVENT_ACTOR_SET_STATE",
+      "args": {
+        "actorId": "$self$",
+        "spriteStateId": "",
+        "loopAnim": true
+      },
+      "id": "c1179927-f4e9-4ff3-b067-ce91a06f4d6e"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+      "args": {
+        "actorId": "$self$",
+        "speed": 1
+      },
+      "id": "2d1ad5b9-468f-420f-837b-93aa7f7667b7"
+    }
+  ]
+}

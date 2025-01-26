@@ -24,6 +24,31 @@
         "actorId": "$self$"
       },
       "id": "d15d298d-2616-4c3a-97cb-2c813a2953b0"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Quackulation!\nYou found all your\nducklings in $20$\nseconds!\nThat's pretty\nducking fast!"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "a89074cb-5528-4ac1-a2b2-a93a7a82e3be"
     }
   ],
   "playerHit1Script": [],
