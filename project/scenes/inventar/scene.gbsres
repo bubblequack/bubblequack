@@ -113,11 +113,42 @@
       "children": {
         "true": [
           {
-            "command": "EVENT_ACTOR_DEACTIVATE",
+            "command": "EVENT_IF",
             "args": {
-              "actorId": "686fe7ba-063a-4f6d-9896-037aec56ef16"
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "bAND",
+                  "valueA": {
+                    "type": "variable",
+                    "value": "10"
+                  },
+                  "valueB": {
+                    "type": "number",
+                    "value": 4
+                  }
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 0
+                }
+              },
+              "__collapseElse": true,
+              "__collapse": false
             },
-            "id": "3c20197f-18bd-4c63-8091-e279dd995b11"
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_ACTOR_DEACTIVATE",
+                  "args": {
+                    "actorId": "686fe7ba-063a-4f6d-9896-037aec56ef16"
+                  },
+                  "id": "cae8cfec-be2a-4c8a-83af-744622b54b4e"
+                }
+              ],
+              "false": []
+            },
+            "id": "4a920c4a-dc17-472e-acef-1e05679ed59f"
           }
         ],
         "false": []

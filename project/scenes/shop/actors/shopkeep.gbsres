@@ -17,11 +17,38 @@
   "symbol": "actor_19",
   "script": [
     {
+      "command": "EVENT_MENU",
+      "args": {
+        "variable": "L0",
+        "items": 4,
+        "option1": "Bread..........3G",
+        "option2": "Sparkl. water..3G",
+        "option3": "Oil............3G",
+        "option4": "Leave",
+        "option5": "",
+        "option6": "",
+        "option7": "",
+        "option8": "",
+        "cancelOnB": true,
+        "layout": "dialogue",
+        "cancelOnLastOption": true,
+        "__collapse": true
+      },
+      "id": "ec221bc4-321f-4935-8623-4c903eff3a31"
+    },
+    {
       "command": "EVENT_IF",
       "args": {
         "condition": {
-          "type": "variable",
-          "value": "5"
+          "type": "ne",
+          "valueA": {
+            "type": "variable",
+            "value": "L0"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 0
+          }
         },
         "__collapseElse": false,
         "__collapse": false
@@ -29,39 +56,20 @@
       "children": {
         "true": [
           {
-            "command": "EVENT_MENU",
-            "args": {
-              "variable": "L0",
-              "items": 3,
-              "option1": "Bread..........3G",
-              "option2": "Sparkl. water..3G",
-              "option3": "Leave",
-              "option4": "",
-              "option5": "",
-              "option6": "",
-              "option7": "",
-              "option8": "",
-              "cancelOnB": true,
-              "layout": "dialogue",
-              "cancelOnLastOption": true
-            },
-            "id": "ec221bc4-321f-4935-8623-4c903eff3a31"
-          },
-          {
             "command": "EVENT_IF",
             "args": {
               "condition": {
-                "type": "ne",
+                "type": "gte",
                 "valueA": {
                   "type": "variable",
-                  "value": "L0"
+                  "value": "0"
                 },
                 "valueB": {
                   "type": "number",
-                  "value": 0
+                  "value": 3
                 }
               },
-              "__collapseElse": true,
+              "__collapseElse": false,
               "__collapse": false
             },
             "children": {
@@ -70,35 +78,120 @@
                   "command": "EVENT_IF",
                   "args": {
                     "condition": {
-                      "type": "gte",
+                      "type": "eq",
                       "valueA": {
                         "type": "variable",
-                        "value": "0"
+                        "value": "L0"
                       },
                       "valueB": {
                         "type": "number",
-                        "value": 3
+                        "value": 1
                       }
                     },
-                    "__collapseElse": false
+                    "__collapseElse": true,
+                    "__collapse": true
                   },
                   "children": {
                     "true": [
                       {
-                        "command": "EVENT_VARIABLE_MATH",
+                        "command": "EVENT_TEXT",
                         "args": {
-                          "vectorX": "0",
-                          "operation": "sub",
-                          "other": "val",
-                          "vectorY": "L0",
-                          "value": 3,
-                          "minValue": "0",
-                          "maxValue": "32767",
-                          "clamp": false,
-                          "__collapse": false
+                          "text": [
+                            "You bought bread!\n...\nYou've eaten the \nbread!"
+                          ],
+                          "__section": "text",
+                          "avatarId": "",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30
                         },
-                        "id": "4a0d41a8-825b-497e-b87f-375ce9afaf89"
+                        "id": "304c664a-0d1b-46d3-a4fe-f7bdc87a7e76"
                       },
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "You are a duck.\nThey eat bread, \nthey don't keep \nit.\n..."
+                          ],
+                          "__section": "text",
+                          "avatarId": "",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30
+                        },
+                        "id": "cac26fa6-ff68-4d17-9f2e-a69e97cca7da"
+                      },
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "You should have \nknown that!"
+                          ],
+                          "__section": "text",
+                          "avatarId": "",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30
+                        },
+                        "id": "d0bf5f9e-3290-459e-8ea3-63d360485c07"
+                      }
+                    ],
+                    "false": []
+                  },
+                  "id": "2a44173c-e3fd-43ce-b6c3-7cd6de012f1d"
+                },
+                {
+                  "command": "EVENT_IF",
+                  "args": {
+                    "condition": {
+                      "type": "eq",
+                      "valueA": {
+                        "type": "variable",
+                        "value": "L0"
+                      },
+                      "valueB": {
+                        "type": "number",
+                        "value": 2
+                      }
+                    },
+                    "__collapseElse": true,
+                    "__collapse": true
+                  },
+                  "children": {
+                    "true": [
                       {
                         "command": "EVENT_IF",
                         "args": {
@@ -106,11 +199,10 @@
                             "type": "eq",
                             "valueA": {
                               "type": "variable",
-                              "value": "L0"
+                              "value": "5"
                             },
                             "valueB": {
-                              "type": "number",
-                              "value": 1
+                              "type": "false"
                             }
                           },
                           "__collapseElse": true
@@ -121,7 +213,7 @@
                               "command": "EVENT_TEXT",
                               "args": {
                                 "text": [
-                                  "You bought bread!\n...\nYou've eaten the \nbread!"
+                                  "Why would a duck\nneed water?\nJust drink from\nthe lake!"
                                 ],
                                 "__section": "text",
                                 "avatarId": "",
@@ -138,64 +230,20 @@
                                 "closeWhen": "key",
                                 "closeButton": "a",
                                 "closeDelayTime": 0.5,
-                                "closeDelayFrames": 30
+                                "closeDelayFrames": 30,
+                                "__collapse": true
                               },
-                              "id": "304c664a-0d1b-46d3-a4fe-f7bdc87a7e76"
+                              "id": "8faa0753-1730-4fb8-a7d5-9ef77e9f4bd9"
                             },
                             {
-                              "command": "EVENT_TEXT",
-                              "args": {
-                                "text": [
-                                  "You are a duck.\nThey eat bread, \nthey don't keep \nit.\n..."
-                                ],
-                                "__section": "text",
-                                "avatarId": "",
-                                "minHeight": 4,
-                                "maxHeight": 7,
-                                "textX": 1,
-                                "textY": 1,
-                                "textHeight": 5,
-                                "position": "bottom",
-                                "clearPrevious": true,
-                                "showFrame": "true",
-                                "speedIn": -1,
-                                "speedOut": -1,
-                                "closeWhen": "key",
-                                "closeButton": "a",
-                                "closeDelayTime": 0.5,
-                                "closeDelayFrames": 30
-                              },
-                              "id": "cac26fa6-ff68-4d17-9f2e-a69e97cca7da"
-                            },
-                            {
-                              "command": "EVENT_TEXT",
-                              "args": {
-                                "text": [
-                                  "You should have \nknown that!"
-                                ],
-                                "__section": "text",
-                                "avatarId": "",
-                                "minHeight": 4,
-                                "maxHeight": 7,
-                                "textX": 1,
-                                "textY": 1,
-                                "textHeight": 5,
-                                "position": "bottom",
-                                "clearPrevious": true,
-                                "showFrame": "true",
-                                "speedIn": -1,
-                                "speedOut": -1,
-                                "closeWhen": "key",
-                                "closeButton": "a",
-                                "closeDelayTime": 0.5,
-                                "closeDelayFrames": 30
-                              },
-                              "id": "d0bf5f9e-3290-459e-8ea3-63d360485c07"
+                              "command": "EVENT_STOP",
+                              "args": {},
+                              "id": "4bec2d05-aa52-4fed-9c98-deb946e56a3c"
                             }
                           ],
                           "false": []
                         },
-                        "id": "2a44173c-e3fd-43ce-b6c3-7cd6de012f1d"
+                        "id": "1c81a98a-8059-45cf-91eb-d1a77af064b7"
                       },
                       {
                         "command": "EVENT_IF",
@@ -203,219 +251,101 @@
                           "condition": {
                             "type": "eq",
                             "valueA": {
-                              "type": "variable",
-                              "value": "L0"
+                              "type": "bAND",
+                              "valueA": {
+                                "type": "variable",
+                                "value": "10"
+                              },
+                              "valueB": {
+                                "type": "number",
+                                "value": 1
+                              }
                             },
                             "valueB": {
                               "type": "number",
-                              "value": 2
+                              "value": 0
                             }
                           },
                           "__collapseElse": true,
-                          "__collapse": true
+                          "__collapse": false
                         },
                         "children": {
                           "true": [
                             {
-                              "command": "EVENT_IF",
+                              "command": "EVENT_SET_VALUE",
                               "args": {
-                                "condition": {
-                                  "type": "eq",
+                                "variable": "10",
+                                "value": {
+                                  "type": "add",
                                   "valueA": {
-                                    "type": "bAND",
-                                    "valueA": {
-                                      "type": "variable",
-                                      "value": "10"
-                                    },
-                                    "valueB": {
-                                      "type": "number",
-                                      "value": 1
-                                    }
+                                    "type": "variable",
+                                    "value": "10"
                                   },
                                   "valueB": {
                                     "type": "number",
                                     "value": 1
                                   }
-                                },
-                                "__collapseElse": false,
-                                "__collapse": true
+                                }
                               },
-                              "children": {
-                                "true": [
-                                  {
-                                    "command": "EVENT_TEXT",
-                                    "args": {
-                                      "text": [
-                                        "You already have\nthis item."
-                                      ],
-                                      "__section": "text",
-                                      "avatarId": "",
-                                      "minHeight": 4,
-                                      "maxHeight": 7,
-                                      "textX": 1,
-                                      "textY": 1,
-                                      "textHeight": 5,
-                                      "position": "bottom",
-                                      "clearPrevious": true,
-                                      "showFrame": "true",
-                                      "speedIn": -1,
-                                      "speedOut": -1,
-                                      "closeWhen": "key",
-                                      "closeButton": "a",
-                                      "closeDelayTime": 0.5,
-                                      "closeDelayFrames": 30
-                                    },
-                                    "id": "d0333bff-5168-4e0c-83c4-0bb38fbf9733"
-                                  },
-                                  {
-                                    "command": "EVENT_STOP",
-                                    "args": {},
-                                    "id": "00c352f6-cad2-4a48-b59d-0167e225c7b7"
-                                  }
-                                ],
-                                "false": [
-                                  {
-                                    "command": "EVENT_SET_VALUE",
-                                    "args": {
-                                      "variable": "10",
-                                      "value": {
-                                        "type": "add",
-                                        "valueA": {
-                                          "type": "variable",
-                                          "value": "10"
-                                        },
-                                        "valueB": {
-                                          "type": "number",
-                                          "value": 1
-                                        }
-                                      }
-                                    },
-                                    "id": "d7e3f75b-2ed3-43a2-869e-77e731d487e1"
-                                  }
-                                ]
-                              },
-                              "id": "535d508e-16a8-4e93-a32d-1516bef7e58a"
+                              "id": "d7e3f75b-2ed3-43a2-869e-77e731d487e1"
                             }
                           ],
-                          "false": []
+                          "false": [
+                            {
+                              "command": "EVENT_TEXT",
+                              "args": {
+                                "text": [
+                                  "You already have\nthis item."
+                                ],
+                                "__section": "text",
+                                "avatarId": "",
+                                "minHeight": 4,
+                                "maxHeight": 7,
+                                "textX": 1,
+                                "textY": 1,
+                                "textHeight": 5,
+                                "position": "bottom",
+                                "clearPrevious": true,
+                                "showFrame": "true",
+                                "speedIn": -1,
+                                "speedOut": -1,
+                                "closeWhen": "key",
+                                "closeButton": "a",
+                                "closeDelayTime": 0.5,
+                                "closeDelayFrames": 30
+                              },
+                              "id": "d0333bff-5168-4e0c-83c4-0bb38fbf9733"
+                            },
+                            {
+                              "command": "EVENT_STOP",
+                              "args": {},
+                              "id": "00c352f6-cad2-4a48-b59d-0167e225c7b7"
+                            }
+                          ]
                         },
-                        "id": "72b0b0c7-f1ab-4216-807e-22768b936431"
-                      },
-                      {
-                        "command": "EVENT_TEXT",
-                        "args": {
-                          "text": [
-                            "Item bought.\nYou now have $00$\ngold left."
-                          ],
-                          "__section": "text",
-                          "avatarId": "",
-                          "minHeight": 4,
-                          "maxHeight": 7,
-                          "textX": 1,
-                          "textY": 1,
-                          "textHeight": 5,
-                          "position": "bottom",
-                          "clearPrevious": true,
-                          "showFrame": "true",
-                          "speedIn": -1,
-                          "speedOut": -1,
-                          "closeWhen": "key",
-                          "closeButton": "a",
-                          "closeDelayTime": 0.5,
-                          "closeDelayFrames": 30
-                        },
-                        "id": "be602ac1-a394-458a-b6ea-05bb5ed18951"
+                        "id": "535d508e-16a8-4e93-a32d-1516bef7e58a"
                       }
                     ],
-                    "false": [
-                      {
-                        "command": "EVENT_TEXT",
-                        "args": {
-                          "text": [
-                            "Not enough gold."
-                          ],
-                          "__section": "text",
-                          "avatarId": "",
-                          "minHeight": 4,
-                          "maxHeight": 7,
-                          "textX": 1,
-                          "textY": 1,
-                          "textHeight": 5,
-                          "position": "bottom",
-                          "clearPrevious": true,
-                          "showFrame": "true",
-                          "speedIn": -1,
-                          "speedOut": -1,
-                          "closeWhen": "key",
-                          "closeButton": "a",
-                          "closeDelayTime": 0.5,
-                          "closeDelayFrames": 30
-                        },
-                        "id": "26c540cd-de4b-4e10-8876-9892d0830d4b"
-                      }
-                    ]
+                    "false": []
                   },
-                  "id": "7a10892f-fb1e-48d9-8e1a-3769fdefde8a"
-                }
-              ],
-              "false": []
-            },
-            "id": "07ea7d57-cb2f-4bfb-872a-f096d632c28b"
-          }
-        ],
-        "false": [
-          {
-            "command": "EVENT_MENU",
-            "args": {
-              "variable": "L0",
-              "items": 2,
-              "option1": "Buy bread (3 G)",
-              "option2": "Leave",
-              "option3": "Leave",
-              "option4": "",
-              "option5": "",
-              "option6": "",
-              "option7": "",
-              "option8": "",
-              "cancelOnB": true,
-              "layout": "dialogue",
-              "cancelOnLastOption": true
-            },
-            "id": "b23b3ff9-4d2d-4833-9175-36e567c58a3e"
-          },
-          {
-            "command": "EVENT_IF",
-            "args": {
-              "condition": {
-                "type": "ne",
-                "valueA": {
-                  "type": "variable",
-                  "value": "L0"
+                  "id": "72b0b0c7-f1ab-4216-807e-22768b936431"
                 },
-                "valueB": {
-                  "type": "number",
-                  "value": 0
-                }
-              },
-              "__collapseElse": true
-            },
-            "children": {
-              "true": [
                 {
                   "command": "EVENT_IF",
                   "args": {
                     "condition": {
-                      "type": "gte",
+                      "type": "eq",
                       "valueA": {
                         "type": "variable",
-                        "value": "0"
+                        "value": "L0"
                       },
                       "valueB": {
                         "type": "number",
                         "value": 3
                       }
                     },
-                    "__collapseElse": false
+                    "__collapseElse": true,
+                    "__collapse": false
                   },
                   "children": {
                     "true": [
@@ -425,15 +355,23 @@
                           "condition": {
                             "type": "eq",
                             "valueA": {
-                              "type": "variable",
-                              "value": "L0"
+                              "type": "bAND",
+                              "valueA": {
+                                "type": "variable",
+                                "value": "10"
+                              },
+                              "valueB": {
+                                "type": "number",
+                                "value": 2
+                              }
                             },
                             "valueB": {
                               "type": "number",
-                              "value": 1
+                              "value": 0
                             }
                           },
-                          "__collapseElse": true
+                          "__collapseElse": true,
+                          "__collapse": false
                         },
                         "children": {
                           "true": [
@@ -441,7 +379,7 @@
                               "command": "EVENT_TEXT",
                               "args": {
                                 "text": [
-                                  "You bought bread!\n...\nYou've eaten the \nbread!"
+                                  "You're already\nbuoyant.\nNo need for more\noil."
                                 ],
                                 "__section": "text",
                                 "avatarId": "",
@@ -460,142 +398,196 @@
                                 "closeDelayTime": 0.5,
                                 "closeDelayFrames": 30
                               },
-                              "id": "dedcb40b-a2b2-41bf-8e48-82696180c6cf"
+                              "id": "0ca27664-b53a-4833-b248-a44ce3dbce9f"
                             },
                             {
-                              "command": "EVENT_TEXT",
-                              "args": {
-                                "text": [
-                                  "You are a duck.\nThey eat bread, \nthey don't keep \nit.\n..."
-                                ],
-                                "__section": "text",
-                                "avatarId": "",
-                                "minHeight": 4,
-                                "maxHeight": 7,
-                                "textX": 1,
-                                "textY": 1,
-                                "textHeight": 5,
-                                "position": "bottom",
-                                "clearPrevious": true,
-                                "showFrame": "true",
-                                "speedIn": -1,
-                                "speedOut": -1,
-                                "closeWhen": "key",
-                                "closeButton": "a",
-                                "closeDelayTime": 0.5,
-                                "closeDelayFrames": 30
-                              },
-                              "id": "3821d4d3-0069-4ef8-9fcd-566b0166fe8c"
-                            },
-                            {
-                              "command": "EVENT_TEXT",
-                              "args": {
-                                "text": [
-                                  "You should have \nknown that!"
-                                ],
-                                "__section": "text",
-                                "avatarId": "",
-                                "minHeight": 4,
-                                "maxHeight": 7,
-                                "textX": 1,
-                                "textY": 1,
-                                "textHeight": 5,
-                                "position": "bottom",
-                                "clearPrevious": true,
-                                "showFrame": "true",
-                                "speedIn": -1,
-                                "speedOut": -1,
-                                "closeWhen": "key",
-                                "closeButton": "a",
-                                "closeDelayTime": 0.5,
-                                "closeDelayFrames": 30
-                              },
-                              "id": "eac1172f-0646-4219-af75-5e9bbddbcb28"
+                              "command": "EVENT_STOP",
+                              "args": {},
+                              "id": "c26eb130-8b6f-4fda-8345-bf55c471c9e5"
                             }
                           ],
                           "false": []
                         },
-                        "id": "25f98b4e-1545-487a-af37-38383481f1da"
+                        "id": "90a81202-2406-4d4b-bf3b-3906c7055266"
                       },
                       {
-                        "command": "EVENT_VARIABLE_MATH",
+                        "command": "EVENT_IF",
                         "args": {
-                          "vectorX": "0",
-                          "operation": "sub",
-                          "other": "val",
-                          "vectorY": "L0",
-                          "value": 3,
-                          "minValue": "0",
-                          "maxValue": "32767",
-                          "clamp": false,
+                          "condition": {
+                            "type": "eq",
+                            "valueA": {
+                              "type": "bAND",
+                              "valueA": {
+                                "type": "variable",
+                                "value": "10"
+                              },
+                              "valueB": {
+                                "type": "number",
+                                "value": 4
+                              }
+                            },
+                            "valueB": {
+                              "type": "number",
+                              "value": 0
+                            }
+                          },
+                          "__collapseElse": false,
                           "__collapse": false
                         },
-                        "id": "cc3e5a65-98c1-4511-869c-6d35cd1b29af"
-                      },
-                      {
-                        "command": "EVENT_TEXT",
-                        "args": {
-                          "text": [
-                            "Item bought.\nYou now have $00$\ngold left."
+                        "children": {
+                          "true": [
+                            {
+                              "command": "EVENT_SET_VALUE",
+                              "args": {
+                                "variable": "10",
+                                "value": {
+                                  "type": "sub",
+                                  "valueA": {
+                                    "type": "variable",
+                                    "value": "10"
+                                  },
+                                  "valueB": {
+                                    "type": "number",
+                                    "value": 2
+                                  }
+                                }
+                              },
+                              "id": "47e40f9a-0318-4d57-829d-fafda8d3b5ff"
+                            },
+                            {
+                              "command": "EVENT_SET_VALUE",
+                              "args": {
+                                "variable": "10",
+                                "value": {
+                                  "type": "add",
+                                  "valueA": {
+                                    "type": "variable",
+                                    "value": "10"
+                                  },
+                                  "valueB": {
+                                    "type": "number",
+                                    "value": 4
+                                  }
+                                }
+                              },
+                              "id": "7964c278-392e-46d7-aa64-6a42d2b13e88"
+                            }
                           ],
-                          "__section": "text",
-                          "avatarId": "",
-                          "minHeight": 4,
-                          "maxHeight": 7,
-                          "textX": 1,
-                          "textY": 1,
-                          "textHeight": 5,
-                          "position": "bottom",
-                          "clearPrevious": true,
-                          "showFrame": "true",
-                          "speedIn": -1,
-                          "speedOut": -1,
-                          "closeWhen": "key",
-                          "closeButton": "a",
-                          "closeDelayTime": 0.5,
-                          "closeDelayFrames": 30
+                          "false": [
+                            {
+                              "command": "EVENT_TEXT",
+                              "args": {
+                                "text": [
+                                  "You already have\nthis item."
+                                ],
+                                "__section": "text",
+                                "avatarId": "",
+                                "minHeight": 4,
+                                "maxHeight": 7,
+                                "textX": 1,
+                                "textY": 1,
+                                "textHeight": 5,
+                                "position": "bottom",
+                                "clearPrevious": true,
+                                "showFrame": "true",
+                                "speedIn": -1,
+                                "speedOut": -1,
+                                "closeWhen": "key",
+                                "closeButton": "a",
+                                "closeDelayTime": 0.5,
+                                "closeDelayFrames": 30
+                              },
+                              "id": "a98941a9-b0dc-41ba-899f-58754faeb819"
+                            },
+                            {
+                              "command": "EVENT_STOP",
+                              "args": {},
+                              "id": "2da12e6f-8e82-4933-82f4-5438839c58aa"
+                            }
+                          ]
                         },
-                        "id": "9f2e3e25-91d9-4576-9625-98f7f29311f7"
+                        "id": "0614b625-9fda-443f-b89a-03843e6d8815"
                       }
                     ],
-                    "false": [
-                      {
-                        "command": "EVENT_TEXT",
-                        "args": {
-                          "text": [
-                            "Not enough gold."
-                          ],
-                          "__section": "text",
-                          "avatarId": "",
-                          "minHeight": 4,
-                          "maxHeight": 7,
-                          "textX": 1,
-                          "textY": 1,
-                          "textHeight": 5,
-                          "position": "bottom",
-                          "clearPrevious": true,
-                          "showFrame": "true",
-                          "speedIn": -1,
-                          "speedOut": -1,
-                          "closeWhen": "key",
-                          "closeButton": "a",
-                          "closeDelayTime": 0.5,
-                          "closeDelayFrames": 30
-                        },
-                        "id": "8cbf99ff-bacc-4ebe-a9a9-a15f7978cf59"
-                      }
-                    ]
+                    "false": []
                   },
-                  "id": "4a6cd3c4-7ea4-4026-a88a-80382e5a39b7"
+                  "id": "d8147a40-885d-4b7e-b401-87cf0a925620"
+                },
+                {
+                  "command": "EVENT_VARIABLE_MATH",
+                  "args": {
+                    "vectorX": "0",
+                    "operation": "sub",
+                    "other": "val",
+                    "vectorY": "L0",
+                    "value": 3,
+                    "minValue": "0",
+                    "maxValue": "32767",
+                    "clamp": false,
+                    "__collapse": true
+                  },
+                  "id": "4a0d41a8-825b-497e-b87f-375ce9afaf89"
+                },
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "Item bought.\nYou now have $00$\ngold left."
+                    ],
+                    "__section": "text",
+                    "avatarId": "",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "be602ac1-a394-458a-b6ea-05bb5ed18951"
                 }
               ],
-              "false": []
+              "false": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "Not enough gold."
+                    ],
+                    "__section": "text",
+                    "avatarId": "",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "26c540cd-de4b-4e10-8876-9892d0830d4b"
+                }
+              ]
             },
-            "id": "4f5dd2e6-3fca-468e-9d75-6a49713435d3"
+            "id": "7a10892f-fb1e-48d9-8e1a-3769fdefde8a"
           }
-        ]
+        ],
+        "false": []
       },
-      "id": "e3da1e42-1fae-48f9-a69b-9db2815581e5"
+      "id": "07ea7d57-cb2f-4bfb-872a-f096d632c28b"
     }
   ],
   "startScript": [],

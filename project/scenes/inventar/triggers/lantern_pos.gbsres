@@ -151,7 +151,7 @@
                     "text": [
                       "An oil lantern.\nIt's filled with\nand ready to use!"
                     ],
-                    "__section": "text",
+                    "__section": "behavior",
                     "avatarId": "",
                     "minHeight": 4,
                     "maxHeight": 7,
@@ -163,7 +163,7 @@
                     "showFrame": "true",
                     "speedIn": -1,
                     "speedOut": -1,
-                    "closeWhen": "key",
+                    "closeWhen": "notModal",
                     "closeButton": "a",
                     "closeDelayTime": 0.5,
                     "closeDelayFrames": 30
