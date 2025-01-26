@@ -288,6 +288,36 @@
       "command": "EVENT_IF",
       "args": {
         "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "19"
+          },
+          "valueB": {
+            "type": "true"
+          }
+        },
+        "__collapseElse": true,
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "604b2379-81ee-4b29-b098-540c2d98cf7f"
+            },
+            "id": "8f51ad31-d7d9-49a6-a338-23ac8b4d3dbd"
+          }
+        ],
+        "false": []
+      },
+      "id": "70cc037c-9775-4e03-ab8a-e9d58009d864"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
           "type": "variable",
           "value": "11"
         },
@@ -300,7 +330,10 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Ducking Bubbles!\nWhere do all\nthose bubbles\ncome from?"
+                "Ducking Bubbles!\nWhere do all\nthose bubbles\ncome from?",
+                "My 4 ducklings\nfled.",
+                "I should stop\nthe bubbles\nand find my\nmissing\nducklings.",
+                "Maybe the\ncreatures around\nthe lake can\nhelp me."
               ],
               "__section": "text",
               "avatarId": "e100338f-ae40-4e17-90f5-4603eb358b19",
@@ -662,6 +695,27 @@
         "__collapse": true
       },
       "id": "7dcdd887-c8d1-4f1e-b6b6-fb95ab9a72fe"
+    },
+    {
+      "command": "EVENT_SET_TIMER_SCRIPT",
+      "args": {
+        "timer": 4,
+        "duration": 1,
+        "frames": 30,
+        "__scriptTabs": "end"
+      },
+      "children": {
+        "script": [
+          {
+            "command": "EVENT_INC_VALUE",
+            "args": {
+              "variable": "20"
+            },
+            "id": "a48fbe48-f771-4995-8b2e-ced0b7ef12ac"
+          }
+        ]
+      },
+      "id": "f904dc8c-4b4d-4470-ab03-97c7d00ed927"
     }
   ],
   "playerHit1Script": [],

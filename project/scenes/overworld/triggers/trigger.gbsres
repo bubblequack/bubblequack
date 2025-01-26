@@ -16,22 +16,22 @@
         "condition": {
           "type": "eq",
           "valueA": {
-            "type": "variable",
-            "value": "10"
-          },
-          "valueB": {
             "type": "bAND",
             "valueA": {
-              "type": "number",
-              "value": 4
+              "type": "variable",
+              "value": "10"
             },
             "valueB": {
               "type": "number",
-              "value": 0
+              "value": 4
             }
+          },
+          "valueB": {
+            "type": "number",
+            "value": 0
           }
         },
-        "__collapseElse": false
+        "__collapseElse": true
       },
       "children": {
         "true": [
@@ -73,7 +73,7 @@
           }
         ]
       },
-      "id": "f70fdae1-6a3e-4654-8db8-dfd6b6d7b97c"
+      "id": "3334312b-505f-41da-9f61-3c46d5e4e7c0"
     }
   ],
   "leaveScript": [],

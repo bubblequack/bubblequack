@@ -7,7 +7,7 @@
   "spriteSheetId": "59d1f5de-cd82-44d7-9954-e032fab9c36c",
   "prefabId": "",
   "direction": "left",
-  "moveSpeed": 1,
+  "moveSpeed": 2,
   "animSpeed": 15,
   "paletteId": "",
   "isPinned": false,
@@ -16,6 +16,28 @@
   "prefabScriptOverrides": {},
   "symbol": "actor_16",
   "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "variable",
+          "value": "9"
+        },
+        "__collapseElse": true,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_STOP",
+            "args": {},
+            "id": "5952ffc3-0aef-4d16-93b1-a094a162d6df"
+          }
+        ],
+        "false": []
+      },
+      "id": "96112297-7a84-46fc-b409-0ee4659f744a"
+    },
     {
       "command": "EVENT_IF",
       "args": {
@@ -67,6 +89,19 @@
                 }
               ],
               "false": [
+                {
+                  "command": "EVENT_SOUND_PLAY_EFFECT",
+                  "args": {
+                    "type": "f6d9625b-3494-458b-b10a-c892fbd19fc1",
+                    "priority": "high",
+                    "pitch": 4,
+                    "frequency": 200,
+                    "duration": 0.5,
+                    "wait": false,
+                    "effect": 13
+                  },
+                  "id": "8bfd9118-fa13-4d2f-b2e3-83f3777f1bc9"
+                },
                 {
                   "command": "EVENT_TEXT",
                   "args": {

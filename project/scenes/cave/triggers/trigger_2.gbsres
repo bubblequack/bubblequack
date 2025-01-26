@@ -39,6 +39,19 @@
             "id": "f98237c2-777d-409c-b91b-8e40884caa14"
           },
           {
+            "command": "EVENT_SOUND_PLAY_EFFECT",
+            "args": {
+              "type": "f6d9625b-3494-458b-b10a-c892fbd19fc1",
+              "priority": "medium",
+              "pitch": 4,
+              "frequency": 200,
+              "duration": 0.5,
+              "wait": true,
+              "effect": 3
+            },
+            "id": "5632e3d3-7657-4456-82fb-685c51a8e53a"
+          },
+          {
             "command": "EVENT_TEXT",
             "args": {
               "text": [

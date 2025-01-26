@@ -17,6 +17,19 @@
   "symbol": "actor_13",
   "script": [
     {
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "f6d9625b-3494-458b-b10a-c892fbd19fc1",
+        "priority": "medium",
+        "pitch": 4,
+        "frequency": 200,
+        "duration": 0.5,
+        "wait": true,
+        "effect": 32
+      },
+      "id": "7e01b38e-ce18-4eda-af81-e3849df1ab1e"
+    },
+    {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
@@ -58,6 +71,16 @@
         }
       },
       "id": "6acc2597-8b7c-4660-9537-f24308842542"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "19",
+        "value": {
+          "type": "true"
+        }
+      },
+      "id": "46d32689-d593-4218-8795-ed681f972992"
     },
     {
       "command": "EVENT_ACTOR_DEACTIVATE",

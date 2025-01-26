@@ -92,6 +92,16 @@
       "symbol": "var_found_cave_gold"
     },
     {
+      "id": "19",
+      "name": "lantern found",
+      "symbol": "var_lantern_found"
+    },
+    {
+      "id": "20",
+      "name": "globalTime",
+      "symbol": "var_globaltime"
+    },
+    {
       "id": "5cc178f2-2992-458d-9542-c9e71aa1f9a1__L0",
       "name": "Local 0",
       "symbol": "var_local_0"

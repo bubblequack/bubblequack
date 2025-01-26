@@ -24,29 +24,110 @@
       "id": "3bcab2be-69e7-4ea2-a7c4-49bd90dc91d2"
     },
     {
-      "command": "EVENT_TEXT",
+      "command": "EVENT_IF",
       "args": {
-        "text": [
-          "It's way too dark\nin this cave!\nI can't see quack!\nIf only I had a\nlight..."
-        ],
-        "__section": "text",
-        "avatarId": "",
-        "minHeight": 4,
-        "maxHeight": 7,
-        "textX": 1,
-        "textY": 1,
-        "textHeight": 5,
-        "position": "bottom",
-        "clearPrevious": true,
-        "showFrame": "true",
-        "speedIn": -1,
-        "speedOut": -1,
-        "closeWhen": "key",
-        "closeButton": "a",
-        "closeDelayTime": 0.5,
-        "closeDelayFrames": 30
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "bAND",
+            "valueA": {
+              "type": "variable",
+              "value": "10"
+            },
+            "valueB": {
+              "type": "number",
+              "value": 2
+            }
+          },
+          "valueB": {
+            "type": "number",
+            "value": 0
+          }
+        },
+        "__collapseElse": false
       },
-      "id": "21e2c86b-77b9-479e-86b0-241c4b15913c"
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "It's way too dark\nin this cave!\nI can't see quack!\nIf only I had a\nlight..."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "21e2c86b-77b9-479e-86b0-241c4b15913c"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "It's way too\ndark in this\ncave! I can't\nsee quack!"
+              ],
+              "__section": "text",
+              "avatarId": "e100338f-ae40-4e17-90f5-4603eb358b19",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "7e26ccad-3d2d-4e60-956e-05b141d119ab"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "If only there\nwas some oil in\nthe lantern I\nfound..."
+              ],
+              "__section": "text",
+              "avatarId": "e100338f-ae40-4e17-90f5-4603eb358b19",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "d179d678-4fc2-478f-92a5-562b8510339f"
+          }
+        ]
+      },
+      "id": "f22eac6b-944b-42ea-acc5-9237c8c71bf7"
     },
     {
       "command": "EVENT_SWITCH_SCENE",
