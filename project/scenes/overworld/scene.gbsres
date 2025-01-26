@@ -236,7 +236,7 @@
           "value": "17"
         },
         "__collapseElse": true,
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "true": [
@@ -292,7 +292,7 @@
           "value": "11"
         },
         "__collapseElse": true,
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -303,7 +303,7 @@
                 "Ducking Bubbles!\nWhere do all\nthose bubbles\ncome from?"
               ],
               "__section": "text",
-              "avatarId": "",
+              "avatarId": "e100338f-ae40-4e17-90f5-4603eb358b19",
               "minHeight": 4,
               "maxHeight": 7,
               "textX": 1,
