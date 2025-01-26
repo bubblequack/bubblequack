@@ -15,7 +15,57 @@
   "symbol": "scene_7",
   "x": 696,
   "y": 720,
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "3bcab2be-69e7-4ea2-a7c4-49bd90dc91d2"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "It's way too dark\nin this cave!\nIf only I had a\nlight..."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "21e2c86b-77b9-479e-86b0-241c4b15913c"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "d9595a2e-a9eb-4610-8939-fd2abc8912f3",
+        "x": {
+          "type": "number",
+          "value": 33
+        },
+        "y": {
+          "type": "number",
+          "value": 57
+        },
+        "direction": "down",
+        "fadeSpeed": "2"
+      },
+      "id": "166f25d3-420d-4ecb-bfa7-d0cdeb0a5ad1"
+    }
+  ],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": []

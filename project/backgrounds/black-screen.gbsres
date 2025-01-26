@@ -8,5 +8,6 @@
   "imageWidth": 160,
   "imageHeight": 144,
   "filename": "black-screen.png",
-  "tileColors": ""
+  "tileColors": "",
+  "autoColor": false
 }
