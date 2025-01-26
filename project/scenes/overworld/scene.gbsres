@@ -297,7 +297,8 @@
             "type": "true"
           }
         },
-        "__collapseElse": true
+        "__collapseElse": true,
+        "__collapse": true
       },
       "children": {
         "true": [
@@ -321,7 +322,7 @@
           "value": "11"
         },
         "__collapseElse": true,
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -329,7 +330,9 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Ducking Bubbles!\nWhere do all\nthose bubbles\ncome from?"
+                "Ducking Bubbles!\nWhere do all\nthose bubbles\ncome from?",
+                "My 4 ducklings\nfled.",
+                "I should stop\nthe bubbles\nand find my\nmissing\nducklings."
               ],
               "__section": "text",
               "avatarId": "e100338f-ae40-4e17-90f5-4603eb358b19",
