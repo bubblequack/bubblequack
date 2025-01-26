@@ -23,7 +23,7 @@
           "type": "variable",
           "value": "7"
         },
-        "__collapseElse": true,
+        "__collapseElse": false,
         "__collapse": true
       },
       "children": {
@@ -81,7 +81,7 @@
           "type": "variable",
           "value": "9"
         },
-        "__collapseElse": true,
+        "__collapseElse": false,
         "__collapse": true
       },
       "children": {
@@ -236,7 +236,7 @@
           "value": "17"
         },
         "__collapseElse": true,
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "true": [
@@ -292,7 +292,7 @@
           "value": "11"
         },
         "__collapseElse": true,
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -303,7 +303,7 @@
                 "Ducking Bubbles!\nWhere do all\nthose bubbles\ncome from?"
               ],
               "__section": "text",
-              "avatarId": "",
+              "avatarId": "e100338f-ae40-4e17-90f5-4603eb358b19",
               "minHeight": 4,
               "maxHeight": 7,
               "textX": 1,
@@ -499,7 +499,7 @@
         "duration": 0.1,
         "frames": 30,
         "__scriptTabs": "end",
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "script": [
@@ -622,7 +622,7 @@
                 "value": "17"
               },
               "__collapseElse": true,
-              "__collapse": false
+              "__collapse": true
             },
             "children": {
               "true": [
@@ -658,7 +658,8 @@
     {
       "command": "EVENT_CALL_CUSTOM_EVENT",
       "args": {
-        "customEventId": "5dc0c605-0c81-4c23-a0fc-73ed18f76dfd"
+        "customEventId": "5dc0c605-0c81-4c23-a0fc-73ed18f76dfd",
+        "__collapse": true
       },
       "id": "7dcdd887-c8d1-4f1e-b6b6-fb95ab9a72fe"
     }
@@ -668,5 +669,5 @@
   "playerHit3Script": [],
   "playerSpriteSheetId": "e7c6ff34-1f1c-40fd-a7e7-71ab1789360c",
   "labelColor": "",
-  "autoFadeEventCollapse": true
+  "autoFadeEventCollapse": false
 }
