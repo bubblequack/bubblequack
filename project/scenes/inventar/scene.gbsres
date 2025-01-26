@@ -180,7 +180,7 @@
             "command": "EVENT_ACTOR_SET_SPRITE",
             "args": {
               "actorId": "25aab057-9bbc-4a26-9c54-7a2de30c41a2",
-              "spriteSheetId": "daf95270-e30d-423b-9ee7-990ae29f57f6"
+              "spriteSheetId": "025cccaa-710c-49fa-9216-197bd1bd930a"
             },
             "id": "85c7ae30-e614-44f8-b6c5-83f694cc97d8"
           }
@@ -210,7 +210,7 @@
             "command": "EVENT_ACTOR_SET_SPRITE",
             "args": {
               "actorId": "6b9ac51d-1367-46b1-bf9f-0dc354238949",
-              "spriteSheetId": "daf95270-e30d-423b-9ee7-990ae29f57f6"
+              "spriteSheetId": "025cccaa-710c-49fa-9216-197bd1bd930a"
             },
             "id": "7c0384b8-8bc9-4179-a514-d55f291e81ee"
           }
@@ -240,7 +240,7 @@
             "command": "EVENT_ACTOR_SET_SPRITE",
             "args": {
               "actorId": "bca5b5e0-dd0e-45a7-8b8b-54060633fb11",
-              "spriteSheetId": "daf95270-e30d-423b-9ee7-990ae29f57f6"
+              "spriteSheetId": "025cccaa-710c-49fa-9216-197bd1bd930a"
             },
             "id": "9f8884ed-b832-4a13-af54-2abc8e60df66"
           }
@@ -270,7 +270,7 @@
             "command": "EVENT_ACTOR_SET_SPRITE",
             "args": {
               "actorId": "d0d1f538-de14-4ea3-b03d-9cf7bbac3f56",
-              "spriteSheetId": "daf95270-e30d-423b-9ee7-990ae29f57f6"
+              "spriteSheetId": "025cccaa-710c-49fa-9216-197bd1bd930a"
             },
             "id": "7a139671-7553-4d8c-bd4a-58afcdf27186"
           }
