@@ -74,6 +74,13 @@
         "closeDelayFrames": 30
       },
       "id": "af87388e-8d2c-4d40-9681-71137a3c9e66"
+    },
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "b9f16d0f-fb2c-403e-826d-55675d726465"
+      },
+      "id": "4237b63f-8413-4293-9f1d-37aa46fe7dc5"
     }
   ],
   "playerHit1Script": [],
