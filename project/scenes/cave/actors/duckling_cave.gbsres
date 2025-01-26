@@ -56,6 +56,19 @@
         ],
         "false": [
           {
+            "command": "EVENT_SOUND_PLAY_EFFECT",
+            "args": {
+              "type": "f6d9625b-3494-458b-b10a-c892fbd19fc1",
+              "priority": "high",
+              "pitch": 4,
+              "frequency": 200,
+              "duration": 0.5,
+              "wait": false,
+              "effect": 13
+            },
+            "id": "5d2c1c91-5f8e-46ee-890f-0cfcb7822e60"
+          },
+          {
             "command": "EVENT_TEXT",
             "args": {
               "text": [
