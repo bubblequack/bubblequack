@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "955f95b7-4b33-42f2-96fc-5e43e5535df7",
+  "name": "endscene",
+  "symbol": "bg_endscene",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "endscene.png",
+  "tileColors": ""
+}

@@ -3,12 +3,14 @@
   "id": "fd1455f3-037a-43dd-bb41-9e6e1fedf8f5",
   "_index": 7,
   "name": "The Ent",
-  "backgroundId": "cbaba2e2-8740-4a69-92de-d74cd8a4a145",
+  "backgroundId": "955f95b7-4b33-42f2-96fc-5e43e5535df7",
   "tilesetId": "",
   "width": 20,
   "height": 18,
   "type": "TOPDOWN",
-  "paletteIds": [],
+  "paletteIds": [
+    "default-bg-5"
+  ],
   "spritePaletteIds": [],
   "collisions": "",
   "autoFadeSpeed": 1,
