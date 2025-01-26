@@ -195,6 +195,11 @@
       "id": "6de1f36d-9a96-4389-935c-02699e5889ed__L0",
       "name": "Local 0",
       "symbol": "var_local_19"
+    },
+    {
+      "id": "19",
+      "name": "lantern found",
+      "symbol": "var_lantern_found"
     }
   ]
 }
