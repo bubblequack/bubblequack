@@ -47,10 +47,21 @@
       "id": "4ce41d17-d9ab-47b7-a848-7482436caa4b"
     },
     {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "19",
+        "value": {
+          "type": "number",
+          "value": 1
+        }
+      },
+      "id": "37fd8c50-42a3-42de-bbce-0ffe47c0978d"
+    },
+    {
       "id": "c8d4d622-2270-4f44-8f7f-c4b3d47cf877",
       "command": "EVENT_LOOP",
       "args": {
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "true": [

@@ -17,6 +17,14 @@
   "y": 167.06849315068496,
   "script": [
     {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "7f0f8ac8-3cb0-4856-a221-2e70d50739d9",
+        "__collapse": false
+      },
+      "id": "85ea6c42-e545-41d5-b6fb-dc59aac7b65e"
+    },
+    {
       "command": "EVENT_IF",
       "args": {
         "condition": {
@@ -322,7 +330,7 @@
           "value": "11"
         },
         "__collapseElse": true,
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -365,6 +373,17 @@
               "__collapse": true
             },
             "id": "da488724-b72f-4ad1-8748-6c3d78edfc3c"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "19",
+              "value": {
+                "type": "number",
+                "value": 0
+              }
+            },
+            "id": "81c89858-b004-4837-adb8-de74a22e8dc9"
           }
         ],
         "false": []
@@ -724,7 +743,8 @@
         "timer": 3,
         "duration": 0.01,
         "frames": 30,
-        "__scriptTabs": "end"
+        "__scriptTabs": "end",
+        "__collapse": true
       },
       "children": {
         "script": [
