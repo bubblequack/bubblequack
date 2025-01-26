@@ -2,11 +2,6 @@
   "_resourceType": "variables",
   "variables": [
     {
-      "id": "0",
-      "name": "gold",
-      "symbol": "var_gold"
-    },
-    {
       "id": "1",
       "name": "found forest gold",
       "symbol": "var_found_forest_gold"
@@ -195,6 +190,11 @@
       "id": "6de1f36d-9a96-4389-935c-02699e5889ed__L0",
       "name": "Local 0",
       "symbol": "var_local_19"
+    },
+    {
+      "id": "19",
+      "name": "isswimming",
+      "symbol": "var_isswimming"
     }
   ]
 }

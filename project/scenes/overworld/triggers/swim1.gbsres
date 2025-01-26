@@ -1,0 +1,32 @@
+{
+  "_resourceType": "trigger",
+  "id": "a37c1516-81bc-41d1-8db0-82d93e3ed612",
+  "name": "Swim1",
+  "prefabId": "0e4818f3-1d46-4a39-88fc-966b15320810",
+  "x": 24,
+  "y": 26,
+  "symbol": "trigger_11",
+  "prefabScriptOverrides": {
+    "8fd26b11-a251-4781-968c-3ab0d90bc04f": {
+      "id": "8fd26b11-a251-4781-968c-3ab0d90bc04f",
+      "args": {
+        "condition": {
+          "type": "or",
+          "valueA": {
+            "type": "number",
+            "value": 0
+          },
+          "valueB": {
+            "type": "number",
+            "value": 2
+          }
+        }
+      }
+    }
+  },
+  "width": 30,
+  "height": 20,
+  "script": [],
+  "leaveScript": [],
+  "_index": 3
+}
