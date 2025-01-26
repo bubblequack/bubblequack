@@ -29,6 +29,27 @@
         "musicId": "3223fadb-d5db-4fdc-aa6f-4784824a46bc"
       },
       "id": "e5d87bb8-c679-4074-95db-705c1370ca2d"
+    },
+    {
+      "command": "EVENT_SET_TIMER_SCRIPT",
+      "args": {
+        "timer": 4,
+        "duration": 1,
+        "frames": 30,
+        "__scriptTabs": "end"
+      },
+      "children": {
+        "script": [
+          {
+            "command": "EVENT_INC_VALUE",
+            "args": {
+              "variable": "20"
+            },
+            "id": "3ccbee83-7d51-4b5a-b55e-beb6991b3f31"
+          }
+        ]
+      },
+      "id": "08281db5-4b6e-4b3c-9ed1-7e331fcb5cd6"
     }
   ],
   "playerHit1Script": [],
