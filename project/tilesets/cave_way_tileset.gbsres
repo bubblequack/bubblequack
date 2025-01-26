@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "1c37d9e3-8ab6-44e4-97f7-fe23a3c007eb",
+  "name": "cave_way_tileset",
+  "symbol": "tileset_cave_way_tileset",
+  "width": 8,
+  "height": 2,
+  "imageWidth": 64,
+  "imageHeight": 16,
+  "filename": "cave_way_tileset.png"
+}
