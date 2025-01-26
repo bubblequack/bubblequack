@@ -89,7 +89,7 @@
                       }
                     },
                     "__collapseElse": true,
-                    "__collapse": true
+                    "__collapse": false
                   },
                   "children": {
                     "true": [
@@ -97,56 +97,9 @@
                         "command": "EVENT_TEXT",
                         "args": {
                           "text": [
-                            "You bought bread!\n...\nYou've eaten the \nbread!"
-                          ],
-                          "__section": "text",
-                          "avatarId": "",
-                          "minHeight": 4,
-                          "maxHeight": 7,
-                          "textX": 1,
-                          "textY": 1,
-                          "textHeight": 5,
-                          "position": "bottom",
-                          "clearPrevious": true,
-                          "showFrame": "true",
-                          "speedIn": -1,
-                          "speedOut": -1,
-                          "closeWhen": "key",
-                          "closeButton": "a",
-                          "closeDelayTime": 0.5,
-                          "closeDelayFrames": 30
-                        },
-                        "id": "304c664a-0d1b-46d3-a4fe-f7bdc87a7e76"
-                      },
-                      {
-                        "command": "EVENT_TEXT",
-                        "args": {
-                          "text": [
-                            "You are a duck.\nThey eat bread, \nthey don't keep \nit.\n..."
-                          ],
-                          "__section": "text",
-                          "avatarId": "",
-                          "minHeight": 4,
-                          "maxHeight": 7,
-                          "textX": 1,
-                          "textY": 1,
-                          "textHeight": 5,
-                          "position": "bottom",
-                          "clearPrevious": true,
-                          "showFrame": "true",
-                          "speedIn": -1,
-                          "speedOut": -1,
-                          "closeWhen": "key",
-                          "closeButton": "a",
-                          "closeDelayTime": 0.5,
-                          "closeDelayFrames": 30
-                        },
-                        "id": "cac26fa6-ff68-4d17-9f2e-a69e97cca7da"
-                      },
-                      {
-                        "command": "EVENT_TEXT",
-                        "args": {
-                          "text": [
+                            "You bought bread!",
+                            "You've eaten the \nbread!",
+                            "You are a duck.\nThey eat bread, \nthey don't keep \nit.",
                             "You should have \nknown that!"
                           ],
                           "__section": "text",
@@ -166,7 +119,7 @@
                           "closeDelayTime": 0.5,
                           "closeDelayFrames": 30
                         },
-                        "id": "d0bf5f9e-3290-459e-8ea3-63d360485c07"
+                        "id": "304c664a-0d1b-46d3-a4fe-f7bdc87a7e76"
                       }
                     ],
                     "false": []
