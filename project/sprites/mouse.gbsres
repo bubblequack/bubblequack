@@ -537,6 +537,6 @@
   "boundsX": 0,
   "boundsY": 0,
   "boundsWidth": 16,
-  "boundsHeight": 16,
+  "boundsHeight": 5,
   "animSpeed": 15
 }
