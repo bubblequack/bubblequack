@@ -149,9 +149,9 @@
                   "command": "EVENT_TEXT",
                   "args": {
                     "text": [
-                      "An oil lantern.\nIt's filled with\nand ready to use!"
+                      "An oil lantern.\nIt's filled with\noil and ready to\nuse!"
                     ],
-                    "__section": "behavior",
+                    "__section": "text",
                     "avatarId": "",
                     "minHeight": 4,
                     "maxHeight": 7,
@@ -182,7 +182,7 @@
               "text": [
                 "A empty lantern.\nIt's missing oil."
               ],
-              "__section": "behavior",
+              "__section": "text",
               "avatarId": "",
               "minHeight": 4,
               "maxHeight": 7,
