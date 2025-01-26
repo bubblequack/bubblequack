@@ -20,10 +20,10 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "*blub*\nI've seen a\nduckling run into\nthe tall grass."
+          "*blub*\nI've seen a\nduckling run\ninto the tall\ngrass."
         ],
         "__section": "text",
-        "avatarId": "",
+        "avatarId": "0fe1571b-3781-48bd-89a4-861248e32a26",
         "minHeight": 4,
         "maxHeight": 7,
         "textX": 1,
