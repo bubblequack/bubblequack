@@ -27,7 +27,7 @@
       "command": "EVENT_IF",
       "args": {
         "condition": {
-          "type": "and",
+          "type": "eq",
           "valueA": {
             "type": "bAND",
             "valueA": {
