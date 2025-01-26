@@ -1,0 +1,145 @@
+{
+  "_resourceType": "actor",
+  "id": "f54e07e2-0430-451a-9cc7-202cb58be0a5",
+  "name": "Duckling Cave",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "59d1f5de-cd82-44d7-9954-e032fab9c36c",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_15",
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "variable",
+          "value": "2"
+        },
+        "__collapseElse": false,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "The duckling is\nstill scared by\nthe bubbles."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "c278dc54-7795-4678-8b63-60b32c846740"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "You have found a\nmissing duckling.",
+                "The duckling is\nwaiting outside\nof the cave."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "ffc647fe-9fd2-4043-9e37-edf4717cba1e"
+          },
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "$self$"
+            },
+            "id": "4603f353-3a26-486e-a0c1-05d012ba96d1"
+          },
+          {
+            "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
+            "args": {
+              "actorId": "e3501404-c7d1-4cf6-b32e-fcefdbf52b26"
+            },
+            "id": "4dd66e93-3952-4c8a-a518-4efbd85990a7"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "17",
+              "value": {
+                "type": "true"
+              }
+            },
+            "id": "fd1a1ee4-8030-4187-a754-b50a001609c0"
+          }
+        ]
+      },
+      "id": "ffbd2a7a-3959-49ac-9084-d8b7cd49a6a4"
+    }
+  ],
+  "startScript": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "variable",
+          "value": "17"
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "$self$"
+            },
+            "id": "b750fedf-27b8-4e97-93ce-a9e19bdc58a5"
+          }
+        ],
+        "false": []
+      },
+      "id": "0a6d4892-f178-4e49-a056-855a7e2e523a"
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 28,
+  "y": 7,
+  "_index": 0
+}

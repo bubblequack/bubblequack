@@ -1,0 +1,35 @@
+{
+  "_resourceType": "actor",
+  "id": "6f80c274-1a94-4429-aca3-1738b75ebddd",
+  "name": "Duckling Cave",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "59d1f5de-cd82-44d7-9954-e032fab9c36c",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_14",
+  "script": [],
+  "startScript": [
+    {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "263b9dc2-ebc8-4ddc-878a-594adb77103a"
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 24,
+  "y": 59,
+  "_index": 13
+}
