@@ -17,6 +17,9 @@ Thanks to [TradeByte](https://www.tradebyte.com) for providing the jam site.
 * [GameBoy Color ROM](https://bubblequack.com/bubblequack.gbc)
 * [Analogue Pocket ROM](https://bubblequack.com/bubblequack.pocket)
 
+You can play the game on a real GameBoy console or using an emulator on a wide variety of devices:
+<img src="assets/screenshots/supported_hardware.png" height="500px" />
+
 ## License
 [![License](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png)](https://creativecommons.org/licenses/by-nc-sa/4.0)
 
