@@ -175,7 +175,16 @@
         "__collapseElse": true
       },
       "children": {
-        "true": [],
+        "true": [
+          {
+            "command": "EVENT_ACTOR_SET_SPRITE",
+            "args": {
+              "actorId": "25aab057-9bbc-4a26-9c54-7a2de30c41a2",
+              "spriteSheetId": "daf95270-e30d-423b-9ee7-990ae29f57f6"
+            },
+            "id": "85c7ae30-e614-44f8-b6c5-83f694cc97d8"
+          }
+        ],
         "false": []
       },
       "id": "3eaa9cbb-5100-4838-a67b-3a9380d31d84"
@@ -196,7 +205,16 @@
         "__collapseElse": true
       },
       "children": {
-        "true": [],
+        "true": [
+          {
+            "command": "EVENT_ACTOR_SET_SPRITE",
+            "args": {
+              "actorId": "6b9ac51d-1367-46b1-bf9f-0dc354238949",
+              "spriteSheetId": "daf95270-e30d-423b-9ee7-990ae29f57f6"
+            },
+            "id": "7c0384b8-8bc9-4179-a514-d55f291e81ee"
+          }
+        ],
         "false": []
       },
       "id": "7db307d0-3c66-4007-af67-c790a2aeb8c0"
@@ -217,7 +235,16 @@
         "__collapseElse": true
       },
       "children": {
-        "true": [],
+        "true": [
+          {
+            "command": "EVENT_ACTOR_SET_SPRITE",
+            "args": {
+              "actorId": "bca5b5e0-dd0e-45a7-8b8b-54060633fb11",
+              "spriteSheetId": "daf95270-e30d-423b-9ee7-990ae29f57f6"
+            },
+            "id": "9f8884ed-b832-4a13-af54-2abc8e60df66"
+          }
+        ],
         "false": []
       },
       "id": "16744a3e-1531-4629-9a24-5f5a5b4a4156"
@@ -229,7 +256,7 @@
           "type": "eq",
           "valueA": {
             "type": "variable",
-            "value": "14"
+            "value": "17"
           },
           "valueB": {
             "type": "false"
@@ -238,7 +265,16 @@
         "__collapseElse": true
       },
       "children": {
-        "true": [],
+        "true": [
+          {
+            "command": "EVENT_ACTOR_SET_SPRITE",
+            "args": {
+              "actorId": "d0d1f538-de14-4ea3-b03d-9cf7bbac3f56",
+              "spriteSheetId": "daf95270-e30d-423b-9ee7-990ae29f57f6"
+            },
+            "id": "7a139671-7553-4d8c-bd4a-58afcdf27186"
+          }
+        ],
         "false": []
       },
       "id": "a9e8e70c-ea25-4a37-8275-62c4efcd4869"
