@@ -27,7 +27,7 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "It's way too dark\nin this cave!\nIf only I had a\nlight..."
+          "It's way too dark\nin this cave!\nI can't see quack!\nIf only I had a\nlight..."
         ],
         "__section": "text",
         "avatarId": "",
