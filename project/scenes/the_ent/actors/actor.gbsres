@@ -16,7 +16,17 @@
   "prefabScriptOverrides": {},
   "symbol": "actor_25",
   "script": [],
-  "startScript": [],
+  "startScript": [
+    {
+      "command": "EVENT_ACTOR_SET_STATE",
+      "args": {
+        "actorId": "$self$",
+        "spriteStateId": "swimming",
+        "loopAnim": true
+      },
+      "id": "cecb0f45-3f7b-48d2-8b3d-adbc96817ec4"
+    }
+  ],
   "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],
