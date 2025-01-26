@@ -87,6 +87,11 @@
       "symbol": "var_mousetargety"
     },
     {
+      "id": "17",
+      "name": "found duckling cave",
+      "symbol": "var_found_duckling_cave"
+    },
+    {
       "id": "5cc178f2-2992-458d-9542-c9e71aa1f9a1__L0",
       "name": "Local 0",
       "symbol": "var_local_0"
@@ -187,9 +192,9 @@
       "symbol": "var_local_19"
     },
     {
-      "id": "17",
-      "name": "found duckling cave",
-      "symbol": "var_found_duckling_cave"
+      "id": "18",
+      "name": "found cave gold",
+      "symbol": "var_found_cave_gold"
     }
   ]
 }

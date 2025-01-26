@@ -50,7 +50,7 @@
       "id": "c8d4d622-2270-4f44-8f7f-c4b3d47cf877",
       "command": "EVENT_LOOP",
       "args": {
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -68,7 +68,7 @@
             "command": "EVENT_IF",
             "args": {
               "variable": "L0",
-              "__collapse": true,
+              "__collapse": false,
               "__collapseElse": false,
               "condition": {
                 "type": "variable",
@@ -106,6 +106,16 @@
                     }
                   },
                   "id": "dbf01a15-ff9d-4c63-9bba-b667259e0224"
+                },
+                {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "18",
+                    "value": {
+                      "type": "false"
+                    }
+                  },
+                  "id": "6653aa3f-a3f0-4914-b47f-15258ad62192"
                 },
                 {
                   "id": "beff8ff2-f36f-4b0d-a7c9-dc54f3a421bf",
