@@ -25,7 +25,7 @@
         "frequency": 200,
         "duration": 0.5,
         "wait": true,
-        "effect": 32
+        "effect": 3
       },
       "id": "7e01b38e-ce18-4eda-af81-e3849df1ab1e"
     },
