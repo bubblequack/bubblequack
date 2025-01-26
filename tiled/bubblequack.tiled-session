@@ -29,6 +29,10 @@
             "scaleInDock": 1,
             "scaleInEditor": 11
         },
+        "cave_way_tileset.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
         "forest.tmx": {
             "scale": 3.5070833333333336,
             "selectedLayer": 0,
@@ -62,13 +66,15 @@
         "overworld.tsx",
         "forest.tmx",
         "cave.tmx",
-        "cave_stone_tileset.tsx"
+        "cave_stone_tileset.tsx",
+        "cave_way_tileset.tsx"
     ],
     "project": "bubblequack.tiled-project",
     "recentFiles": [
         "overworld.tmx",
         "overworld.tsx",
         "forest.tmx",
+        "cave_way_tileset.tsx",
         "cave_stone_tileset.tsx",
         "cave.tmx",
         "cave.tsx"
