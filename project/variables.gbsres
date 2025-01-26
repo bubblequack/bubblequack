@@ -107,6 +107,11 @@
       "symbol": "var_lanternfound"
     },
     {
+      "id": "24",
+      "name": "found all triggered",
+      "symbol": "var_found_all_triggered"
+    },
+    {
       "id": "5cc178f2-2992-458d-9542-c9e71aa1f9a1__L0",
       "name": "Local 0",
       "symbol": "var_local_0"
@@ -205,11 +210,6 @@
       "id": "6de1f36d-9a96-4389-935c-02699e5889ed__L0",
       "name": "Local 0",
       "symbol": "var_local_19"
-    },
-    {
-      "id": "24",
-      "name": "found all triggered",
-      "symbol": "var_found_all_triggered"
     }
   ]
 }
