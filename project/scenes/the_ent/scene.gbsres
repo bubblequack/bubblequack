@@ -29,7 +29,7 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Quackulation!\nYou took $20$\nseconds!\nThat's pretty\nducking fast!"
+          "Quackulation!\nYou found all your\nducklings in $20$\nseconds!\nThat's pretty\nducking fast!"
         ],
         "__section": "text",
         "avatarId": "",
