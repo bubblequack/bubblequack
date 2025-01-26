@@ -306,7 +306,7 @@
           }
         },
         "__collapseElse": true,
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "true": [
@@ -321,6 +321,18 @@
         "false": []
       },
       "id": "70cc037c-9775-4e03-ab8a-e9d58009d864"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "19",
+        "value": {
+          "type": "number",
+          "value": 0
+        },
+        "__collapse": true
+      },
+      "id": "81c89858-b004-4837-adb8-de74a22e8dc9"
     },
     {
       "command": "EVENT_IF",
@@ -373,17 +385,6 @@
               "__collapse": true
             },
             "id": "da488724-b72f-4ad1-8748-6c3d78edfc3c"
-          },
-          {
-            "command": "EVENT_SET_VALUE",
-            "args": {
-              "variable": "19",
-              "value": {
-                "type": "number",
-                "value": 0
-              }
-            },
-            "id": "81c89858-b004-4837-adb8-de74a22e8dc9"
           }
         ],
         "false": []
