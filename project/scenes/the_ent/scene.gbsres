@@ -29,7 +29,7 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Conquackulation!\nYou found all your\nducklings in $globalTime\nseconds!"
+          "Conquackulation!\nYou found all your\nducklings in $20$\nseconds!"
         ],
         "__section": "text",
         "avatarId": "",

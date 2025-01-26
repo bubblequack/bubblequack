@@ -21,7 +21,8 @@
             "value": 0
           }
         },
-        "__collapseElse": false
+        "__collapseElse": false,
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -62,10 +63,65 @@
             "args": {
               "actorId": "$self$",
               "speed": 1,
-              "__collapse": false
+              "__collapse": true
             },
             "id": "7a11055c-3933-4bd7-9597-37c9f22e087a",
             "children": {}
+          },
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "and",
+                "valueA": {
+                  "type": "and",
+                  "valueA": {
+                    "type": "variable",
+                    "value": "9"
+                  },
+                  "valueB": {
+                    "type": "and",
+                    "valueA": {
+                      "type": "variable",
+                      "value": "13"
+                    },
+                    "valueB": {
+                      "type": "variable",
+                      "value": "14"
+                    }
+                  }
+                },
+                "valueB": {
+                  "type": "variable",
+                  "value": "17"
+                }
+              },
+              "__collapseElse": true,
+              "__collapse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_SWITCH_SCENE",
+                  "args": {
+                    "sceneId": "fd1455f3-037a-43dd-bb41-9e6e1fedf8f5",
+                    "x": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "direction": "",
+                    "fadeSpeed": 6
+                  },
+                  "id": "dc7ce2e1-f8e2-4edd-a316-f4e64ef7eaa0"
+                }
+              ],
+              "false": []
+            },
+            "id": "8e4ced80-1078-416c-8475-a3c006e3ad7b"
           }
         ]
       },

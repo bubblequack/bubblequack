@@ -23,7 +23,8 @@
             "command": "EVENT_SAVE_DATA",
             "args": {
               "saveSlot": 0,
-              "__scriptTabs": "save"
+              "__scriptTabs": "save",
+              "__collapse": true
             },
             "children": {
               "true": [
@@ -73,6 +74,17 @@
       },
       "children": {
         "true": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "19",
+              "value": {
+                "type": "number",
+                "value": 0
+              }
+            },
+            "id": "a9fb9d19-a31f-4393-acec-041e8f50c570"
+          },
           {
             "command": "EVENT_SCENE_PUSH_STATE",
             "args": {},

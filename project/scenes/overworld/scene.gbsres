@@ -552,7 +552,7 @@
         "duration": 0.1,
         "frames": 30,
         "__scriptTabs": "end",
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "script": [
@@ -703,6 +703,89 @@
               "false": []
             },
             "id": "59e3d033-2925-4366-a390-a89d13ad2aab"
+          },
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "and",
+                "valueA": {
+                  "type": "not",
+                  "value": {
+                    "type": "variable",
+                    "value": "24"
+                  }
+                },
+                "valueB": {
+                  "type": "and",
+                  "valueA": {
+                    "type": "and",
+                    "valueA": {
+                      "type": "variable",
+                      "value": "9"
+                    },
+                    "valueB": {
+                      "type": "variable",
+                      "value": "14"
+                    }
+                  },
+                  "valueB": {
+                    "type": "and",
+                    "valueA": {
+                      "type": "variable",
+                      "value": "13"
+                    },
+                    "valueB": {
+                      "type": "variable",
+                      "value": "17"
+                    }
+                  }
+                }
+              },
+              "__collapseElse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "Now I've found\nall my ducklings\nagain.",
+                      "Time to get back\nin the pond."
+                    ],
+                    "__section": "text",
+                    "avatarId": "e100338f-ae40-4e17-90f5-4603eb358b19",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "ece78784-44d9-40cf-8e69-295f95aa4fc0"
+                },
+                {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "24",
+                    "value": {
+                      "type": "true"
+                    }
+                  },
+                  "id": "f3b85355-fb92-42b7-bc36-dbef1370eba3"
+                }
+              ],
+              "false": []
+            },
+            "id": "d457fc1d-d03e-46a8-86e1-7b1a9080a985"
           }
         ]
       },
