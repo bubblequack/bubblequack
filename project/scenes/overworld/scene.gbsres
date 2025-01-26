@@ -288,11 +288,40 @@
       "command": "EVENT_IF",
       "args": {
         "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "19"
+          },
+          "valueB": {
+            "type": "true"
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "604b2379-81ee-4b29-b098-540c2d98cf7f"
+            },
+            "id": "8f51ad31-d7d9-49a6-a338-23ac8b4d3dbd"
+          }
+        ],
+        "false": []
+      },
+      "id": "70cc037c-9775-4e03-ab8a-e9d58009d864"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
           "type": "variable",
           "value": "11"
         },
         "__collapseElse": true,
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "true": [
