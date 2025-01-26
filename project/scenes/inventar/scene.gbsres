@@ -303,7 +303,7 @@
         ],
         "override": true,
         "__scriptTabs": "press",
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "true": [
@@ -329,6 +329,27 @@
         ]
       },
       "id": "4deff476-4803-48b0-9885-325385d97f03"
+    },
+    {
+      "command": "EVENT_SET_TIMER_SCRIPT",
+      "args": {
+        "timer": 4,
+        "duration": 1,
+        "frames": 30,
+        "__scriptTabs": "end"
+      },
+      "children": {
+        "script": [
+          {
+            "command": "EVENT_INC_VALUE",
+            "args": {
+              "variable": "20"
+            },
+            "id": "aace98dd-a53b-4990-b0aa-433a52c97f20"
+          }
+        ]
+      },
+      "id": "d05670cf-9f65-4363-b503-911e274a615b"
     }
   ],
   "playerHit1Script": [],

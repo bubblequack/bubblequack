@@ -695,6 +695,27 @@
         "__collapse": true
       },
       "id": "7dcdd887-c8d1-4f1e-b6b6-fb95ab9a72fe"
+    },
+    {
+      "command": "EVENT_SET_TIMER_SCRIPT",
+      "args": {
+        "timer": 4,
+        "duration": 1,
+        "frames": 30,
+        "__scriptTabs": "end"
+      },
+      "children": {
+        "script": [
+          {
+            "command": "EVENT_INC_VALUE",
+            "args": {
+              "variable": "20"
+            },
+            "id": "a48fbe48-f771-4995-8b2e-ced0b7ef12ac"
+          }
+        ]
+      },
+      "id": "f904dc8c-4b4d-4470-ab03-97c7d00ed927"
     }
   ],
   "playerHit1Script": [],
